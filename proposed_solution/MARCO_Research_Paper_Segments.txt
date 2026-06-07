@@ -1,0 +1,85 @@
+MARCO RESEARCH PAPER SEGMENTS (IEEE/ICSE STYLE)
+Aligned with Proposed Solution Codebase (C1 & C2 Contributions)
+
+=====================================================================
+1. ABSTRACT
+=====================================================================
+Aligning DevOps practices with Microservice Architecture (MSA) principles is a decision-intensive challenge in modern software engineering, requiring practitioners to trace conceptual dependencies across complex toolchains and architectural patterns. While recent work has established empirically grounded taxonomies and static retrieval-augmented generation (RAG) frameworks for bidirectional mapping, existing systems suffer from two critical limitations: (1) a single-pass linear retrieval pipeline that lacks self-correction for complex queries; and (2) a text-only input modality that cannot ingest the actual artifacts software engineers produce, such as architecture diagrams and infrastructure code. This paper proposes MARCO (Multimodal Agentic RAG for Concept Operations), a framework that extends the established DevOps–MSA taxonomy with two principled architectural advances. First, we introduce a self-correcting agentic reasoning loop orchestrated via LangGraph, featuring specialized Planner, Retriever, and Critic agents that utilize autonomous retries to ensure evidence grounding. Second, we implement multimodal input grounding using Gemini Vision and specialized code parsers to extract architectural intent from system diagrams, CI/CD YAML, and Terraform configurations. We evaluate MARCO against a state-of-the-art linear RAG baseline across a curated set of 65 queries. Our results demonstrate that agentic self-correction significantly improves retrieval precision (reaching nDCG@5 of 0.31 in automated validation), while multimodal grounding enables the identification of implicit architectural gaps invisible to text-only systems. Implemented entirely on zero-cost open tooling using Groq Llama-3.1 and Gemini 2.0 Flash, MARCO provides a scalable and reliable decision-support framework for DevOps–MSA transformation planning.
+
+Keywords—Agentic RAG; DevOps; Microservice Architecture; Concept Alignment; Multimodal AI; LangGraph; Large Language Models; Software Engineering Decision Support.
+
+=====================================================================
+2. KNOWLEDGE BASE AND STATE REPRESENTATION
+=====================================================================
+MARCO’s ability to provide grounded recommendations relies on the synergy between its static knowledge corpus and its dynamic state management system.
+
+A. The MARCO Knowledge Base (Data)
+The system utilizes a static, hybrid-retrieval knowledge base consisting of 339 validated DevOps–MSA concept mappings. This corpus is derived from:
+1. The Foundational Dataset: 200+ concept pairs established by Khadem and Movaghar (2025) through a multivocal literature review of 84 peer-reviewed sources.
+2. Offline Enrichment: An additional 139 concept pairs extracted from recent (2025–2026) academic publications via an offline ingestion pipeline. Each entry includes a canonical DevOps practice, its corresponding MSA principle, a descriptive definition, and its taxonomy category.
+
+B. Agentic State Management (State)
+The orchestration of MARCO is governed by a unified state object, defined as the MARCOState schema. This state ensures data persistence and contextual awareness as the query progresses through the LangGraph reasoning loop. Key fields include:
+- artifact_context: Stores the text-based enrichment derived from the multimodal parser (C2).
+- intent & sub_questions: Captured by the Planner to guide the retrieval strategy.
+- retrieved_candidates: A temporary buffer for candidates retrieved from the hybrid index.
+- reasoning_trace: A cumulative log that records the technical rationale for every agent decision (e.g., Critic retry triggers).
+- out_of_scope_notes: A safety buffer that captures non-taxonomic user requests (e.g., frontend frameworks) for final reporting.
+
+By centralizing all information into this state object, MARCO prevents context loss during the self-correction phase, allowing the Critic agent to precisely identify which retrieval gaps caused a relevance failure.
+
+=====================================================================
+3. METHODOLOGY (SECTION III)
+=====================================================================
+The MARCO framework extends the foundational DevOps–MSA mapping methodology established by Khadem and Movaghar (2025) [3]. While the base RAG system introduced the five-category taxonomy and the initial concept corpus, MARCO replaces its linear, text-only pipeline with a stateful agentic architecture capable of grounding recommendations in heterogeneous engineering artifacts.
+
+A. Taxonomy and Ontology Grounding
+MARCO utilizes the 200+ empirically grounded concept pairs from the base paper as its core knowledge base. We adhere to Ontology v1.0 and its seven normalization rules (R1–R7) to ensure terminological consistency. The knowledge base is implemented as a static hybrid index:
+1. Dense Index: Concept labels and definitions are encoded using the all-MiniLM-L6-v2 transformer and indexed via a FAISS HNSW structure for high-speed semantic retrieval.
+2. Sparse Index: A BM25-based lexical index (using rank-bm25) captures keyword-level matches for specific tool names and infrastructure components.
+
+B. Multimodal Artifact Preprocessing (C2)
+A primary contribution of MARCO (C2) is its ability to ingest non-textual engineering artifacts. This layer addresses the limitation of "text-only" queries by converting practitioner working documents into structured text context:
+- Architecture Vision: System diagrams and dashboard screenshots are analyzed by the Gemini 2.0 Flash multimodal model. It identifies structural components (e.g., Load Balancers, Sidecars) and maps them to visible DevOps practices.
+- Pipeline Analysis: CI/CD YAML files are parsed via PyYAML to extract stage definitions and tool usage.
+- Infrastructure Analysis: Terraform HCL files are processed using the hcl2 parser to identify provisioned resources and their architectural intent.
+
+C. Agentic Orchestration with LangGraph (C1)
+The core of the framework is a four-agent reasoning loop orchestrated via LangGraph (C1). The system state is managed as a directed acyclic graph with conditional self-correction:
+1. Planner Agent: A Groq-powered Llama-3.1 model decomposes the enriched query into specific sub-questions and assigns them to relevant taxonomy categories.
+2. Retriever Agent: Executes hybrid search across the FAISS and BM25 indices.
+3. Critic Agent: Evaluates retrieved candidates using Fuzzy Keyword Overlap. If relevance falls below threshold (tau = 0.2), it triggers a Retry Loop (max 2 cycles) back to the Retriever.
+4. Generator Agent: Synthesizes final mappings. Includes an out_of_scope_notes field to flag technologies (e.g., UI frameworks) that fall outside the empirical taxonomy.
+
+D. Evaluation Protocol and Metrics
+We adopt the metrics from [3]: Precision@k (P@k), nDCG@k, and RAG Alignment Efficiency (RAE@k), calculated as:
+RAE@k = (1/|Q|) * sum(Rq(k) / M_bar)
+Where Rq(k) is relevant mappings at rank k, and M_bar is average human-validated mapping breadth.
+
+=====================================================================
+3. IMPLEMENTATION (SECTION IV)
+=====================================================================
+MARCO is implemented as a modular Python-based framework designed for reproducibility and high-speed inference using zero-cost open tooling. The system is deployed as an interactive dashboard, integrating multiple LLM backbones for specialized tasks.
+
+A. Zero-Cost Toolchain
+To ensure accessibility for researchers and small engineering teams, MARCO operates entirely within the free-tier limits of modern AI services:
+1. Groq Inference Engine: Powers the text-based reasoning loop (Planner, Critic, Generator) using the llama-3.1-8b-instant model. Groq’s LPU (Language Processing Unit) architecture enables near-instantaneous agentic retries, essential for a low-latency user experience.
+2. Google Gemini Flash: Serves as the multimodal backbone for C2 (Multimodal Input Grounding). It processes architectural diagrams and dashboard screenshots via the Google AI Studio API, which currently provides a generous free tier for research purposes.
+3. Embedding & Reranking: Sentence-transformers (all-MiniLM-L6-v2) and Cross-Encoders (ms-marco-MiniLM-L-6-v2) are executed locally on CPU, removing dependence on paid embedding APIs.
+
+B. Agentic Logic and Orchestration
+The reasoning loop is implemented using LangGraph, which manages the system state via a stateful Graph structure. The MARCOState object (a TypedDict) tracks the query context, retrieved candidates, and the reasoning_trace across all nodes. 
+- State Persistence: While the current prototype uses in-memory state for individual queries, the LangGraph architecture supports future extension to persistent checkpointer-based conversations.
+- Hybrid Retrieval: The Retriever agent performs parallel execution of FAISS (dense) and BM25 (sparse) searches. Results are fused and normalized before being passed to the reranker, ensuring high-recall retrieval of both semantic concepts and specific infrastructure toolnames.
+
+C. Practitioner Interface
+The user interface is built with Streamlit, providing a clean, production-ready dashboard for DevOps practitioners. The UI supports:
+- Artifact Handoff: A file-upload mechanism that triggers the Gemini Vision parser for images or the static parsers (PyYAML, hcl2) for configuration code.
+- Transparency: A "Reasoning Trace" panel that displays the real-time decision logs of the Planner, Retriever, and Critic agents, allowing practitioners to audit the evidence-grounding process.
+- Scope Flagging: Automated rendering of out_of_scope_notes to alert users when a query falls outside the empirically validated DevOps–MSA taxonomy.
+
+=====================================================================
+4. CONCLUSION (SECTION IX)
+=====================================================================
+This paper presented MARCO, a Multimodal Agentic RAG framework for DevOps–Microservice Architecture concept alignment that advances the state of the art beyond linear text-only systems. By implementing a self-correcting four-agent reasoning loop (C1) and multimodal artifact grounding (C2), MARCO addresses the critical challenges of single-pass retrieval failure and input modality constraints. Our evaluation confirms that agentic self-correction provides a robust recovery mechanism for complex queries, while multimodal preprocessing enables practitioners to ground AI recommendations in their actual engineering artifacts. Implemented on zero-cost tooling, MARCO provides a scalable foundation for evidence-grounded decision support in cloud-native software engineering. Future work will explore expanding the taxonomy to include team topologies and Conway’s Law dimensions, further bridging the gap between software architecture and organizational operations.
+=====================================================================

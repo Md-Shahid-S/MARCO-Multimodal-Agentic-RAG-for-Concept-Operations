@@ -1,0 +1,352 @@
+[
+  {
+    "query": "What is the relationship between Continuous Integration and service choreography?",
+    "gold_labels": {
+      "265": 2,
+      "1": 1
+    }
+  },
+  {
+    "query": "How does Infrastructure as Code enable automated deployment in microservices?",
+    "gold_labels": {
+      "488": 2,
+      "519": 1
+    }
+  },
+  {
+    "query": "What are the benefits of container orchestration for service composition?",
+    "gold_labels": {
+      "559": 2,
+      "397": 1
+    }
+  },
+  {
+    "query": "How do I implement zero-downtime deployments in a microservice architecture?",
+    "gold_labels": {
+      "460": 2,
+      "568": 1
+    }
+  },
+  {
+    "query": "Mapping continuous delivery pipelines to independent service deployability.",
+    "gold_labels": {
+      "376": 2,
+      "92": 1
+    }
+  },
+  {
+    "query": "How does GitOps facilitate declarative microservice orchestration?",
+    "gold_labels": {
+      "513": 2,
+      "54": 1
+    }
+  },
+  {
+    "query": "What is the role of a deployment mesh in managing microservice rollouts?",
+    "gold_labels": {
+      "395": 2,
+      "400": 1
+    }
+  },
+  {
+    "query": "How to automate database schema migrations in a CI/CD pipeline for MSA?",
+    "gold_labels": {
+      "487": 2,
+      "11": 1
+    }
+  },
+  {
+    "query": "Automating rollback mechanisms for distributed microservices.",
+    "gold_labels": {
+      "15": 2,
+      "460": 1
+    }
+  },
+  {
+    "query": "How does immutable infrastructure relate to containerized microservice deployments?",
+    "gold_labels": {
+      "235": 2,
+      "287": 1
+    }
+  },
+  {
+    "query": "How do I map distributed tracing to fault isolation in microservices?",
+    "gold_labels": {
+      "437": 2,
+      "395": 1
+    }
+  },
+  {
+    "query": "What is the connection between centralized logging and runtime diagnostics?",
+    "gold_labels": {
+      "8": 2,
+      "548": 1
+    }
+  },
+  {
+    "query": "Implementing service-level telemetry with Prometheus and Grafana.",
+    "gold_labels": {
+      "427": 2,
+      "37": 1
+    }
+  },
+  {
+    "query": "How does synthetic monitoring improve microservice reliability?",
+    "gold_labels": {
+      "237": 2,
+      "266": 1
+    }
+  },
+  {
+    "query": "Mapping eBPF-based observability to dynamic service discovery.",
+    "gold_labels": {
+      "142": 2,
+      "126": 1
+    }
+  },
+  {
+    "query": "How to establish alerting rules for asynchronous microservice communication?",
+    "gold_labels": {
+      "472": 2,
+      "455": 1
+    }
+  },
+  {
+    "query": "What is the relationship between log aggregation and distributed transaction debugging?",
+    "gold_labels": {
+      "529": 2,
+      "246": 1
+    }
+  },
+  {
+    "query": "How do health checks and readiness probes relate to service registry availability?",
+    "gold_labels": {
+      "359": 2,
+      "225": 1
+    }
+  },
+  {
+    "query": "Tracking request latency across multiple microservice boundaries.",
+    "gold_labels": {
+      "456": 2,
+      "455": 1
+    }
+  },
+  {
+    "query": "Using correlation IDs for cross-service observability.",
+    "gold_labels": {
+      "333": 2,
+      "178": 1
+    }
+  },
+  {
+    "query": "How do automated scaling policies map to service granularity?",
+    "gold_labels": {
+      "28": 2,
+      "449": 1
+    }
+  },
+  {
+    "query": "What is the relationship between DevOps feedback loops and service autonomy?",
+    "gold_labels": {
+      "406": 2,
+      "412": 1
+    }
+  },
+  {
+    "query": "How does pipeline automation enforce architectural modularization?",
+    "gold_labels": {
+      "106": 2,
+      "347": 1
+    }
+  },
+  {
+    "query": "Mapping horizontal pod autoscaling to stateless microservice design.",
+    "gold_labels": {
+      "568": 2,
+      "437": 1
+    }
+  },
+  {
+    "query": "How do domain-driven design contexts influence DevOps team topologies?",
+    "gold_labels": {
+      "531": 2,
+      "4": 1
+    }
+  },
+  {
+    "query": "What is the connection between feature toggles and modular microservice releases?",
+    "gold_labels": {
+      "437": 2,
+      "461": 1
+    }
+  },
+  {
+    "query": "How does API gateway routing relate to scalable backend services?",
+    "gold_labels": {
+      "438": 2,
+      "555": 1
+    }
+  },
+  {
+    "query": "Decoupling services using event-driven DevOps architectures.",
+    "gold_labels": {
+      "174": 2,
+      "241": 1
+    }
+  },
+  {
+    "query": "How do caching layers in DevOps pipelines improve microservice scalability?",
+    "gold_labels": {
+      "243": 2,
+      "481": 1
+    }
+  },
+  {
+    "query": "Managing database per service limits through infrastructure automation.",
+    "gold_labels": {
+      "579": 2,
+      "130": 1
+    }
+  },
+  {
+    "query": "How does DevSecOps integrate access control into microservices?",
+    "gold_labels": {
+      "459": 2,
+      "377": 1
+    }
+  },
+  {
+    "query": "Mapping version control practices to architectural traceability.",
+    "gold_labels": {
+      "520": 2,
+      "490": 1
+    }
+  },
+  {
+    "query": "What is the role of automated audit logging in enforcing policy compliance?",
+    "gold_labels": {
+      "470": 2,
+      "297": 1
+    }
+  },
+  {
+    "query": "How to implement zero-trust security between microservices using a service mesh?",
+    "gold_labels": {
+      "395": 2,
+      "88": 1
+    }
+  },
+  {
+    "query": "Automating vulnerability scanning in microservice container registries.",
+    "gold_labels": {
+      "134": 2,
+      "455": 1
+    }
+  },
+  {
+    "query": "How does secret management map to decentralized configuration in MSA?",
+    "gold_labels": {
+      "140": 2,
+      "563": 1
+    }
+  },
+  {
+    "query": "Implementing continuous compliance checks in CI/CD pipelines.",
+    "gold_labels": {
+      "296": 2,
+      "127": 1
+    }
+  },
+  {
+    "query": "What is the relationship between automated SAST/DAST and microservice boundaries?",
+    "gold_labels": {
+      "460": 2,
+      "461": 1
+    }
+  },
+  {
+    "query": "Enforcing rate limiting and WAF policies in microservice gateways.",
+    "gold_labels": {
+      "438": 2,
+      "463": 1
+    }
+  },
+  {
+    "query": "How do signed container images relate to microservice supply chain security?",
+    "gold_labels": {
+      "459": 2,
+      "456": 1
+    }
+  },
+  {
+    "query": "How does Infrastructure as Code map to declarative configuration in MSA?",
+    "gold_labels": {
+      "512": 2,
+      "478": 1
+    }
+  },
+  {
+    "query": "What is the relationship between configuration management and stateless deployment?",
+    "gold_labels": {
+      "423": 2,
+      "563": 1
+    }
+  },
+  {
+    "query": "How does automated cloud provisioning relate to cloud-native microservice setup?",
+    "gold_labels": {
+      "516": 2,
+      "415": 1
+    }
+  },
+  {
+    "query": "Mapping dynamic environment variables to externalized microservice configuration.",
+    "gold_labels": {
+      "405": 2,
+      "437": 1
+    }
+  },
+  {
+    "query": "How do I manage drift in microservice environments using Terraform?",
+    "gold_labels": {
+      "503": 2,
+      "395": 1
+    }
+  },
+  {
+    "query": "Using ConfigMaps and Secrets for decentralized service configuration.",
+    "gold_labels": {
+      "395": 2,
+      "423": 1
+    }
+  },
+  {
+    "query": "How does ephemeral environment creation speed up microservice testing?",
+    "gold_labels": {
+      "461": 2,
+      "462": 1
+    }
+  },
+  {
+    "query": "Managing multi-region microservice deployments via centralized configuration.",
+    "gold_labels": {
+      "460": 2,
+      "207": 1
+    }
+  },
+  {
+    "query": "What is the connection between Git-backed configuration and service restartability?",
+    "gold_labels": {
+      "513": 2,
+      "225": 1
+    }
+  },
+  {
+    "query": "Automating the setup of local development environments for complex microservices.",
+    "gold_labels": {
+      "460": 2,
+      "559": 1
+    }
+  }
+]

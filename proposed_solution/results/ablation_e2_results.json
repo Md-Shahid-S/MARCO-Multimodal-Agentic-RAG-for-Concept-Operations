@@ -1,0 +1,362 @@
+{
+  "mode": "ablation_e2",
+  "aggregate": {
+    "P@3": 0.1212,
+    "nDCG@3": 0.2392,
+    "P@5": 0.0727,
+    "nDCG@5": 0.2392,
+    "P@10": 0.0364,
+    "nDCG@10": 0.2392,
+    "RAE@5": 0.0545,
+    "n_queries": 11,
+    "hallucination_rate": 0.0
+  },
+  "per_query": [
+    {
+      "query": "How do I implement continuous integration for microservices?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "541",
+          1.0
+        ],
+        [
+          "416",
+          1.0
+        ],
+        [
+          "369",
+          1.0
+        ],
+        [
+          "447",
+          1.0
+        ],
+        [
+          "591",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What are the benefits of container orchestration in microservices architecture?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "559",
+          1.0
+        ],
+        [
+          "461",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does Infrastructure as Code relate to dynamic configuration?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "354",
+          1.0
+        ],
+        [
+          "478",
+          1.0
+        ],
+        [
+          "466",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Implementing automated monitoring and logging for distributed systems",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "460",
+          1.0
+        ],
+        [
+          "516",
+          1.0
+        ],
+        [
+          "297",
+          1.0
+        ],
+        [
+          "587",
+          1.0
+        ],
+        [
+          "390",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "DevOps pipeline automation and service mesh integration",
+      "metrics": {
+        "P@3": 0.3333333333333333,
+        "nDCG@3": 1.0,
+        "P@5": 0.2,
+        "nDCG@5": 1.0,
+        "P@10": 0.1,
+        "nDCG@10": 1.0,
+        "RAE@5": 0.2
+      },
+      "ranked": [
+        [
+          "10",
+          1.0
+        ],
+        [
+          "311",
+          1.0
+        ],
+        [
+          "395",
+          1.0
+        ],
+        [
+          "32",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the relationship between BizDevOps and business microservices?",
+      "metrics": {
+        "P@3": 0.3333333333333333,
+        "nDCG@3": 0.6309297535714574,
+        "P@5": 0.2,
+        "nDCG@5": 0.6309297535714574,
+        "P@10": 0.1,
+        "nDCG@10": 0.6309297535714574,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          212,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          459,
+          1.0
+        ],
+        [
+          437,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Automated testing strategies for service granularity",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "460",
+          1.0
+        ],
+        [
+          "459",
+          1.0
+        ],
+        [
+          "97",
+          1.0
+        ],
+        [
+          "382",
+          1.0
+        ],
+        [
+          "430",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Securing microservice deployments with DevSecOps",
+      "metrics": {
+        "P@3": 0.6666666666666666,
+        "nDCG@3": 1.0,
+        "P@5": 0.4,
+        "nDCG@5": 1.0,
+        "P@10": 0.2,
+        "nDCG@10": 1.0,
+        "RAE@5": 0.4
+      },
+      "ranked": [
+        [
+          "459",
+          1.0
+        ],
+        [
+          "459",
+          1.0
+        ],
+        [
+          "377",
+          1.0
+        ],
+        [
+          "284",
+          1.0
+        ],
+        [
+          "462",
+          1.0
+        ],
+        [
+          "460",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How to handle database migrations in a CI/CD pipeline for MSA?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "127",
+          1.0
+        ],
+        [
+          "155",
+          1.0
+        ],
+        [
+          "183",
+          1.0
+        ],
+        [
+          "546",
+          1.0
+        ],
+        [
+          "136",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Mapping observability to runtime diagnostics",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "396",
+          1.0
+        ],
+        [
+          "333",
+          1.0
+        ],
+        [
+          "178",
+          1.0
+        ],
+        [
+          "181",
+          1.0
+        ],
+        [
+          "237",
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "System scaling and modularization query",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          "555",
+          1.0
+        ],
+        [
+          "593",
+          1.0
+        ],
+        [
+          "564",
+          1.0
+        ],
+        [
+          "562",
+          1.0
+        ]
+      ]
+    }
+  ]
+}

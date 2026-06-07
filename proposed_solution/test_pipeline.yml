@@ -1,0 +1,16 @@
+stages:
+  - build
+  - test
+  - deploy
+  - monitor
+
+deploy_job:
+  stage: deploy
+  script:
+    - docker build -t myapp .
+    - kubectl apply -f k8s/
+  
+monitor_job:
+  stage: monitor
+  script:
+    - datadog-agent run

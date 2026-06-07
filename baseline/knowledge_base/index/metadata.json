@@ -1,0 +1,5284 @@
+[
+  {
+    "id": 0,
+    "reference_name": 1,
+    "devops_concept": "BizDevOps",
+    "msa_concept": "Business Process Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 1,
+    "reference_name": 1,
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Independent Deployable Units",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 2,
+    "reference_name": 1,
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Categorization (Business/Technical)",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 3,
+    "reference_name": 1,
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Granularity",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 4,
+    "reference_name": 1,
+    "devops_concept": "DevOps Teams with Shared Roles",
+    "msa_concept": "Microservices per Business Process Task",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 5,
+    "reference_name": 1,
+    "devops_concept": "Monitoring and KPI Analysis",
+    "msa_concept": "Containerized Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 6,
+    "reference_name": 2,
+    "devops_concept": "Continuous Integration and Deployment",
+    "msa_concept": "Service Autonomy",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 7,
+    "reference_name": 2,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Dynamic Configuration Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 8,
+    "reference_name": 2,
+    "devops_concept": "Automated Monitoring and Logging",
+    "msa_concept": "Distributed Services Observability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 9,
+    "reference_name": 2,
+    "devops_concept": "Container Orchestration",
+    "msa_concept": "Service Scalability and Isolation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 10,
+    "reference_name": 2,
+    "devops_concept": "DevOps Pipeline Automation",
+    "msa_concept": "Service Mesh Integration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 11,
+    "reference_name": 3,
+    "devops_concept": "CI/CD Pipeline Automation",
+    "msa_concept": "Independent Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 12,
+    "reference_name": 3,
+    "devops_concept": "Infrastructure as Code with Kubernetes and Helm",
+    "msa_concept": "Containerized Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 13,
+    "reference_name": 3,
+    "devops_concept": "Continuous Monitoring and Feedback",
+    "msa_concept": "Service Observability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 14,
+    "reference_name": 3,
+    "devops_concept": "Cross-functional DevOps Teams",
+    "msa_concept": "Service Ownership",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 15,
+    "reference_name": 3,
+    "devops_concept": "Automated Testing and Rollback",
+    "msa_concept": "Fault Isolation and Recovery",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 16,
+    "reference_name": 3,
+    "devops_concept": "Version Control and Integration Triggers",
+    "msa_concept": "Service Interface Stability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 17,
+    "reference_name": 3,
+    "devops_concept": "Release Pipeline Management",
+    "msa_concept": "Service Scalability and Availability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 18,
+    "reference_name": 4,
+    "devops_concept": "Continuous Planning and Deployment",
+    "msa_concept": "Independent Services per Task",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 19,
+    "reference_name": 4,
+    "devops_concept": "Containerization with Docker",
+    "msa_concept": "Microservices as Docker Containers",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 20,
+    "reference_name": 4,
+    "devops_concept": "Orchestration via AWS ECS and Fargate",
+    "msa_concept": "Scalable, Serverless Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 21,
+    "reference_name": 4,
+    "devops_concept": "Monitoring with AWS CloudWatch",
+    "msa_concept": "Microservice Health and Performance Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 22,
+    "reference_name": 4,
+    "devops_concept": "API Testing Tools (Postman)",
+    "msa_concept": "HTTP-based Microservice Communication",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 23,
+    "reference_name": 4,
+    "devops_concept": "DevOps Pipeline (Plan, Code, Build, Test, Release, Deploy, Operate, Monitor)",
+    "msa_concept": "Service-Oriented Deployment Lifecycle",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 24,
+    "reference_name": 5,
+    "devops_concept": "DevOps-as-a-Service",
+    "msa_concept": "Microservice Adoption Acceleration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 25,
+    "reference_name": 5,
+    "devops_concept": "Continuous Integration and Delivery (CI/CD)",
+    "msa_concept": "Independent Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 26,
+    "reference_name": 5,
+    "devops_concept": "Containerization (Docker)",
+    "msa_concept": "Modular and Portable Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 27,
+    "reference_name": 5,
+    "devops_concept": "Monitoring and Diagnostics",
+    "msa_concept": "Ephemeral Service Observation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 28,
+    "reference_name": 5,
+    "devops_concept": "Auto-scaling Policies",
+    "msa_concept": "Service Elasticity",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 29,
+    "reference_name": 5,
+    "devops_concept": "Multi-cloud Orchestration",
+    "msa_concept": "Distributed Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 30,
+    "reference_name": 5,
+    "devops_concept": "Security and Privacy Enforcement",
+    "msa_concept": "API-based Service Communication",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 31,
+    "reference_name": 5,
+    "devops_concept": "Unicorn Framework",
+    "msa_concept": "Secure Scalable Microservice Applications",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 32,
+    "reference_name": 6,
+    "devops_concept": "DevOps Automation",
+    "msa_concept": "Microservice Integration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 33,
+    "reference_name": 6,
+    "devops_concept": "Infrastructure Provisioning",
+    "msa_concept": "Service Orchestration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 34,
+    "reference_name": 6,
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Scalable Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 35,
+    "reference_name": 6,
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Service Modularization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 36,
+    "reference_name": 6,
+    "devops_concept": "Security as Code",
+    "msa_concept": "Service Boundary Enforcement",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 37,
+    "reference_name": 6,
+    "devops_concept": "Monitoring Automation",
+    "msa_concept": "Runtime Service Visibility",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 38,
+    "reference_name": 7,
+    "devops_concept": "Agile DevOps Culture",
+    "msa_concept": "Decentralized Team Responsibility",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 39,
+    "reference_name": 7,
+    "devops_concept": "CI/CD Pipeline and Automation",
+    "msa_concept": "Service Decoupling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 40,
+    "reference_name": 7,
+    "devops_concept": "Test Automation",
+    "msa_concept": "Service Contract Testing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 41,
+    "reference_name": 7,
+    "devops_concept": "Monitoring and Metrics",
+    "msa_concept": "Service Observability and Logging",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 42,
+    "reference_name": 7,
+    "devops_concept": "Continuous Feedback Loop",
+    "msa_concept": "Independent Service Evolution",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 43,
+    "reference_name": 7,
+    "devops_concept": "Toolchain Integration",
+    "msa_concept": "Service Deployment Independence",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 44,
+    "reference_name": 8,
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Independent Microservice Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 45,
+    "reference_name": 8,
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Isolation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 46,
+    "reference_name": 8,
+    "devops_concept": "Monitoring and Logging",
+    "msa_concept": "Runtime Service Behavior",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 47,
+    "reference_name": 8,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Containerized Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 48,
+    "reference_name": 8,
+    "devops_concept": "Pipeline Integration",
+    "msa_concept": "Service Integration via APIs",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 49,
+    "reference_name": 9,
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Layer Interaction",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 50,
+    "reference_name": 9,
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Modular Service Updates",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 51,
+    "reference_name": 9,
+    "devops_concept": "Collaborative Culture",
+    "msa_concept": "Separation of Concerns",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 52,
+    "reference_name": 9,
+    "devops_concept": "Automation",
+    "msa_concept": "Tiered Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 53,
+    "reference_name": 9,
+    "devops_concept": "Software Re-engineering",
+    "msa_concept": "Component Reusability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 54,
+    "reference_name": 10,
+    "devops_concept": "GitOps",
+    "msa_concept": "Microservice-based Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 55,
+    "reference_name": 10,
+    "devops_concept": "DevOps4CPPS",
+    "msa_concept": "USP System Decomposition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 56,
+    "reference_name": 10,
+    "devops_concept": "CI/CD",
+    "msa_concept": "Scalable Orchestration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 57,
+    "reference_name": 10,
+    "devops_concept": "Automated Deployment",
+    "msa_concept": "Service Modularity",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 58,
+    "reference_name": 10,
+    "devops_concept": "Digital Twin Integration",
+    "msa_concept": "Microservice-based Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 59,
+    "reference_name": 11,
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Cloud-Native Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 60,
+    "reference_name": 11,
+    "devops_concept": "Version Control System (VCS)",
+    "msa_concept": "Cloud-Native Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 61,
+    "reference_name": 11,
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Cloud-Native Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 62,
+    "reference_name": 11,
+    "devops_concept": "DevOps Culture",
+    "msa_concept": "Cloud-Native Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 63,
+    "reference_name": 12,
+    "devops_concept": "Cloud-native DevOps",
+    "msa_concept": "Microservices architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 64,
+    "reference_name": 12,
+    "devops_concept": "AI-driven automation",
+    "msa_concept": "Containerization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 65,
+    "reference_name": 12,
+    "devops_concept": "Scalability and Resilience",
+    "msa_concept": "Elastic cloud platforms",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 66,
+    "reference_name": 12,
+    "devops_concept": "Predictive analytics in DevOps",
+    "msa_concept": "Event-driven architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 67,
+    "reference_name": 12,
+    "devops_concept": "Real-time monitoring and anomaly detection",
+    "msa_concept": "Service resilience and failover",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 68,
+    "reference_name": 13,
+    "devops_concept": "Continuous Integration (CI)",
+    "msa_concept": "Independent Component Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 69,
+    "reference_name": 13,
+    "devops_concept": "Automated Build and Test",
+    "msa_concept": "Service Isolation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 70,
+    "reference_name": 13,
+    "devops_concept": "Containerization",
+    "msa_concept": "Loose Coupling and Scalability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 71,
+    "reference_name": 13,
+    "devops_concept": "Performance Monitoring",
+    "msa_concept": "Runtime Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 72,
+    "reference_name": 14,
+    "devops_concept": "Continuous Integration/Continuous Delivery (CI/CD)",
+    "msa_concept": "Scalable Cloud Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 73,
+    "reference_name": 14,
+    "devops_concept": "Predictive Monitoring",
+    "msa_concept": "Cloud-based Systems",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 74,
+    "reference_name": 14,
+    "devops_concept": "AI-Augmented DevOps",
+    "msa_concept": "Enterprise Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 75,
+    "reference_name": 14,
+    "devops_concept": "Automation of CI/CD Pipelines",
+    "msa_concept": "Cloud Resource Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 76,
+    "reference_name": 14,
+    "devops_concept": "DevOps Collaboration Culture",
+    "msa_concept": "Microservices Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 77,
+    "reference_name": 14,
+    "devops_concept": "Performance Monitoring",
+    "msa_concept": "Elastic Infrastructure",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 78,
+    "reference_name": 14,
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Cloud-native Scaling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 79,
+    "reference_name": 14,
+    "devops_concept": "Deployment Optimization",
+    "msa_concept": "Dynamic Cloud Infrastructure",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 80,
+    "reference_name": 15,
+    "devops_concept": "CI/CD Automation",
+    "msa_concept": "Independent Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 81,
+    "reference_name": 15,
+    "devops_concept": "Predictive DevOps Monitoring",
+    "msa_concept": "Cloud-Native Service Design",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 82,
+    "reference_name": 15,
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Dynamic Service Composition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 83,
+    "reference_name": 15,
+    "devops_concept": "Real-Time Feedback Loops",
+    "msa_concept": "Elastic Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 84,
+    "reference_name": 15,
+    "devops_concept": "Resilient DevOps Pipelines",
+    "msa_concept": "Container-Based Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 85,
+    "reference_name": 16,
+    "devops_concept": "Security Automation in DevOps",
+    "msa_concept": "Microservice Isolation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 86,
+    "reference_name": 16,
+    "devops_concept": "CI/CD Integration with Security",
+    "msa_concept": "Service Access Control",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 87,
+    "reference_name": 16,
+    "devops_concept": "Monitoring and Alerting",
+    "msa_concept": "Runtime API Protection",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 88,
+    "reference_name": 16,
+    "devops_concept": "Zero Trust Architecture",
+    "msa_concept": "API Gateway Security",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 89,
+    "reference_name": 16,
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Secure Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 90,
+    "reference_name": 17,
+    "devops_concept": "Agile DevOps Practices",
+    "msa_concept": "Smart Enterprise Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 91,
+    "reference_name": 17,
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Scalable System Design",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 92,
+    "reference_name": 17,
+    "devops_concept": "Continuous Delivery",
+    "msa_concept": "Real-time System Adaptability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 93,
+    "reference_name": 17,
+    "devops_concept": "Automation",
+    "msa_concept": "Cloud-based Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 94,
+    "reference_name": 17,
+    "devops_concept": "DevSecOps",
+    "msa_concept": "Security-aware Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 95,
+    "reference_name": 17,
+    "devops_concept": "Collaboration",
+    "msa_concept": "Cross-functional Enterprise Systems",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 96,
+    "reference_name": 18,
+    "devops_concept": "CI/CD for Compliance Automation",
+    "msa_concept": "Dynamic Service Configuration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 97,
+    "reference_name": 18,
+    "devops_concept": "Automated Testing in DevOps",
+    "msa_concept": "Containerized Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 98,
+    "reference_name": 18,
+    "devops_concept": "Monitoring and Auditing Pipelines",
+    "msa_concept": "Microservice Traceability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 99,
+    "reference_name": 19,
+    "devops_concept": "AI-powered Automation",
+    "msa_concept": "Scalable Service Orchestration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 100,
+    "reference_name": 19,
+    "devops_concept": "DevOps Integration",
+    "msa_concept": "Modular Cloud Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 101,
+    "reference_name": 19,
+    "devops_concept": "Automated Deployment",
+    "msa_concept": "Containerized Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 102,
+    "reference_name": 19,
+    "devops_concept": "Monitoring and Compliance",
+    "msa_concept": "Distributed Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 103,
+    "reference_name": 19,
+    "devops_concept": "Continuous Integration and Delivery",
+    "msa_concept": "Service Component Reusability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 104,
+    "reference_name": 20,
+    "devops_concept": "CI/CD Practices",
+    "msa_concept": "Service Reusability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 105,
+    "reference_name": 20,
+    "devops_concept": "InnerSource Collaboration",
+    "msa_concept": "Shared Service Registry",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 106,
+    "reference_name": 20,
+    "devops_concept": "Pipeline Automation",
+    "msa_concept": "Modular Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 107,
+    "reference_name": 20,
+    "devops_concept": "Quality Gates in CI/CD",
+    "msa_concept": "Microservice Standardization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 108,
+    "reference_name": 21,
+    "devops_concept": "Monitoring and Metrics Collection",
+    "msa_concept": "Quality Attribute Evaluation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 109,
+    "reference_name": 21,
+    "devops_concept": "Feedback Loops",
+    "msa_concept": "Distributed System Assessment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 110,
+    "reference_name": 21,
+    "devops_concept": "Pipeline Instrumentation",
+    "msa_concept": "Runtime Performance Testing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 111,
+    "reference_name": 21,
+    "devops_concept": "Automation of Quality Analysis",
+    "msa_concept": "Component-level Evaluation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 112,
+    "reference_name": 22,
+    "devops_concept": "DevOps Toolchain Integration",
+    "msa_concept": "Modular AI Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 113,
+    "reference_name": 22,
+    "devops_concept": "Continuous Delivery",
+    "msa_concept": "Component-based AI Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 114,
+    "reference_name": 22,
+    "devops_concept": "Deployment Automation",
+    "msa_concept": "Containerized AI Pipelines",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 115,
+    "reference_name": 22,
+    "devops_concept": "Monitoring and Logging",
+    "msa_concept": "Distributed AI Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 116,
+    "reference_name": 23,
+    "devops_concept": "Bridging Dev and Ops through Architecture",
+    "msa_concept": "Decentralized System Design",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 117,
+    "reference_name": 23,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Service Deployment Consistency",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 118,
+    "reference_name": 23,
+    "devops_concept": "Continuous Feedback Loops",
+    "msa_concept": "Service-level Observability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 119,
+    "reference_name": 23,
+    "devops_concept": "Deployment Pipelines",
+    "msa_concept": "Modular Architecture Integration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 120,
+    "reference_name": 24,
+    "devops_concept": "Rapid Development and Deployment",
+    "msa_concept": "Service-Oriented Design",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 121,
+    "reference_name": 24,
+    "devops_concept": "Toolchain for Automation",
+    "msa_concept": "Component Reusability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 122,
+    "reference_name": 24,
+    "devops_concept": "Integration Workflows",
+    "msa_concept": "Interoperable Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 123,
+    "reference_name": 25,
+    "devops_concept": "Cloud-native DevOps Practices",
+    "msa_concept": "Container-based Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 124,
+    "reference_name": 25,
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Mesh Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 125,
+    "reference_name": 25,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Independent Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 126,
+    "reference_name": 25,
+    "devops_concept": "Observability and Logging",
+    "msa_concept": "Distributed Tracing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 127,
+    "reference_name": 26,
+    "devops_concept": "CI/CD Pipeline Integration",
+    "msa_concept": "Microservice Integration Testing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 128,
+    "reference_name": 26,
+    "devops_concept": "Automated Hardware Testing",
+    "msa_concept": "Hardware-in-the-Loop Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 129,
+    "reference_name": 26,
+    "devops_concept": "Continuous Validation",
+    "msa_concept": "Service Interaction Simulation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 130,
+    "reference_name": 26,
+    "devops_concept": "Infrastructure Automation",
+    "msa_concept": "Distributed Embedded Systems",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 131,
+    "reference_name": 27,
+    "devops_concept": "DevSecOps for Component Analysis",
+    "msa_concept": "Microservice-Based Security Enforcement",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 132,
+    "reference_name": 27,
+    "devops_concept": "Continuous Software Composition Analysis",
+    "msa_concept": "Decentralized Service Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 133,
+    "reference_name": 27,
+    "devops_concept": "Secure CI/CD Pipelines",
+    "msa_concept": "Modular Blockchain Integration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 134,
+    "reference_name": 27,
+    "devops_concept": "Automated Vulnerability Detection",
+    "msa_concept": "Service Dependency Graphing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 135,
+    "reference_name": 28,
+    "devops_concept": "DevOps-Driven Refactoring",
+    "msa_concept": "Monolith to Microservice Migration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 136,
+    "reference_name": 28,
+    "devops_concept": "CI/CD for Migration Support",
+    "msa_concept": "Incremental Service Decomposition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 137,
+    "reference_name": 28,
+    "devops_concept": "Monitoring and Feedback Loops",
+    "msa_concept": "Independent Service Validation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 138,
+    "reference_name": 28,
+    "devops_concept": "Deployment Automation",
+    "msa_concept": "Service Boundary Definition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 139,
+    "reference_name": 29,
+    "devops_concept": "Kubernetes-Oriented DevOps",
+    "msa_concept": "Containerized Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 140,
+    "reference_name": 29,
+    "devops_concept": "Declarative Configuration Management",
+    "msa_concept": "Service Discovery",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 141,
+    "reference_name": 29,
+    "devops_concept": "CI/CD Orchestration",
+    "msa_concept": "Scalable Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 142,
+    "reference_name": 29,
+    "devops_concept": "Observability Tools",
+    "msa_concept": "Runtime Microservice Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 143,
+    "reference_name": 30,
+    "devops_concept": "Model-Based Automation",
+    "msa_concept": "Service-Oriented Decomposition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 144,
+    "reference_name": 30,
+    "devops_concept": "Intelligent DevOps Pipelines",
+    "msa_concept": "Component Abstraction",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 145,
+    "reference_name": 30,
+    "devops_concept": "Feedback-Driven Automation",
+    "msa_concept": "Modular Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 146,
+    "reference_name": 30,
+    "devops_concept": "Process Orchestration",
+    "msa_concept": "Service Integration Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 147,
+    "reference_name": 31,
+    "devops_concept": "Cross-functional Collaboration",
+    "msa_concept": "Distributed System Design",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 148,
+    "reference_name": 31,
+    "devops_concept": "Tool Proficiency in Pipelines",
+    "msa_concept": "Service Granularity Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 149,
+    "reference_name": 31,
+    "devops_concept": "Infrastructure and Automation Roles",
+    "msa_concept": "Service Boundary Definition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 150,
+    "reference_name": 31,
+    "devops_concept": "Monitoring and Operation Skills",
+    "msa_concept": "Runtime Service Observability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 151,
+    "reference_name": 32,
+    "devops_concept": "Dynamic Orchestration",
+    "msa_concept": "Service Orchestration in Cloud-Native Systems",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 152,
+    "reference_name": 32,
+    "devops_concept": "Auto-scaling Mechanisms",
+    "msa_concept": "Microservice Resilience",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 153,
+    "reference_name": 32,
+    "devops_concept": "Monitoring and Adaptation Loops",
+    "msa_concept": "Elastic Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 154,
+    "reference_name": 32,
+    "devops_concept": "Infrastructure Automation",
+    "msa_concept": "Runtime Service Scaling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 155,
+    "reference_name": 33,
+    "devops_concept": "CI/CD Pipeline Integration",
+    "msa_concept": "Microservice Load Testing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 156,
+    "reference_name": 33,
+    "devops_concept": "Automated Performance Testing",
+    "msa_concept": "Service-Level Benchmarking",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 157,
+    "reference_name": 33,
+    "devops_concept": "Test-Driven DevOps",
+    "msa_concept": "Containerized Service Testing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 158,
+    "reference_name": 33,
+    "devops_concept": "Scalable Test Frameworks",
+    "msa_concept": "Dynamic Service Simulation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 159,
+    "reference_name": 34,
+    "devops_concept": "Legacy System Modernization via DevOps",
+    "msa_concept": "Microservice Identification",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 160,
+    "reference_name": 34,
+    "devops_concept": "Business-Oriented Refactoring",
+    "msa_concept": "Domain-Driven Service Decomposition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 161,
+    "reference_name": 34,
+    "devops_concept": "Incremental Migration Support",
+    "msa_concept": "Legacy Code Modularization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 162,
+    "reference_name": 34,
+    "devops_concept": "Automated Deployment Strategies",
+    "msa_concept": "Service Granularity Optimization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 163,
+    "reference_name": 35,
+    "devops_concept": "Cloud-Native DevOps Integration",
+    "msa_concept": "Service-Oriented Data Platform",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 164,
+    "reference_name": 35,
+    "devops_concept": "Continuous Data Deployment",
+    "msa_concept": "Decoupled Data Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 165,
+    "reference_name": 35,
+    "devops_concept": "Automation in Data Pipelines",
+    "msa_concept": "Domain-Driven Data Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 166,
+    "reference_name": 35,
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Composable Data Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 167,
+    "reference_name": 36,
+    "devops_concept": "ChatOps for Pipeline Interaction",
+    "msa_concept": "Service Composition in Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 168,
+    "reference_name": 36,
+    "devops_concept": "Low-Code DevOps Automation",
+    "msa_concept": "Composable Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 169,
+    "reference_name": 36,
+    "devops_concept": "LLM-Based Operational Support",
+    "msa_concept": "Dynamic Microservice Orchestration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 170,
+    "reference_name": 36,
+    "devops_concept": "DevOps Collaboration via Messaging",
+    "msa_concept": "Distributed Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 171,
+    "reference_name": 37,
+    "devops_concept": "Infrastructure Automation",
+    "msa_concept": "Function-as-a-Service",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 172,
+    "reference_name": 37,
+    "devops_concept": "CI/CD Pipeline Adaptation",
+    "msa_concept": "Serverless Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 173,
+    "reference_name": 37,
+    "devops_concept": "Monitoring in DevOps",
+    "msa_concept": "Stateless Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 174,
+    "reference_name": 37,
+    "devops_concept": "Event-Driven DevOps Practices",
+    "msa_concept": "Event-Based Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 175,
+    "reference_name": 38,
+    "devops_concept": "Continuous Integration and Delivery",
+    "msa_concept": "Component-Based Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 176,
+    "reference_name": 38,
+    "devops_concept": "Security Shift-Left (DevSecOps)",
+    "msa_concept": "Isolated Service Boundaries",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 177,
+    "reference_name": 38,
+    "devops_concept": "AI-Driven Operational Insights (AIOps)",
+    "msa_concept": "Service Health Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 178,
+    "reference_name": 38,
+    "devops_concept": "Automation and Observability",
+    "msa_concept": "Distributed Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 179,
+    "reference_name": 39,
+    "devops_concept": "Cloud-Native CI/CD Pipelines",
+    "msa_concept": "Data Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 180,
+    "reference_name": 39,
+    "devops_concept": "Automation and Containerization",
+    "msa_concept": "Distributed Data Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 181,
+    "reference_name": 39,
+    "devops_concept": "Observability and Monitoring",
+    "msa_concept": "Composable Service Integration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 182,
+    "reference_name": 39,
+    "devops_concept": "Scalable Infrastructure Management",
+    "msa_concept": "Cloud-Native Microservice Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 183,
+    "reference_name": 40,
+    "devops_concept": "CI/CD Pipeline Integration",
+    "msa_concept": "Service-Oriented Application Development",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 184,
+    "reference_name": 40,
+    "devops_concept": "Automation of Builds and Tests",
+    "msa_concept": "Microservice-Based Government Systems",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 185,
+    "reference_name": 40,
+    "devops_concept": "Monitoring and Logging",
+    "msa_concept": "Service Independence",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 186,
+    "reference_name": 40,
+    "devops_concept": "Incremental Delivery",
+    "msa_concept": "Domain-Specific Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 187,
+    "reference_name": 41,
+    "devops_concept": "Security Automation",
+    "msa_concept": "Intrusion Detection in Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 188,
+    "reference_name": 41,
+    "devops_concept": "DevSecOps Integration",
+    "msa_concept": "Distributed Security Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 189,
+    "reference_name": 41,
+    "devops_concept": "Real-Time Threat Detection",
+    "msa_concept": "Container-Level Anomaly Detection",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 190,
+    "reference_name": 41,
+    "devops_concept": "CI/CD Security Integration",
+    "msa_concept": "Microservice Behavior Analysis",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 191,
+    "reference_name": 42,
+    "devops_concept": "Container Resource Optimization",
+    "msa_concept": "Dynamic Microservice Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 192,
+    "reference_name": 42,
+    "devops_concept": "Performance-Aware Orchestration",
+    "msa_concept": "Containerized Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 193,
+    "reference_name": 42,
+    "devops_concept": "CI/CD-Driven Scaling",
+    "msa_concept": "Elastic Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 194,
+    "reference_name": 42,
+    "devops_concept": "Monitoring and Tuning Pipelines",
+    "msa_concept": "Resource-Aware Microservice Scheduling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 195,
+    "reference_name": 43,
+    "devops_concept": "Energy-Aware DevOps Monitoring",
+    "msa_concept": "Energy Consumption per Microservice",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 196,
+    "reference_name": 43,
+    "devops_concept": "Root Cause Analysis Automation",
+    "msa_concept": "Service-Level Energy Profiling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 197,
+    "reference_name": 43,
+    "devops_concept": "Continuous Monitoring",
+    "msa_concept": "Container-Level Resource Metrics",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 198,
+    "reference_name": 43,
+    "devops_concept": "Performance and Energy Efficiency",
+    "msa_concept": "Distributed System Telemetry",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 199,
+    "reference_name": 44,
+    "devops_concept": "Automated Containerization",
+    "msa_concept": "Microservices for Robotic Applications",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 200,
+    "reference_name": 44,
+    "devops_concept": "Deployment Automation",
+    "msa_concept": "Scalable Robotic Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 201,
+    "reference_name": 44,
+    "devops_concept": "DevOps for Heterogeneous Systems",
+    "msa_concept": "Service-Based Robotics Integration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 202,
+    "reference_name": 44,
+    "devops_concept": "CI/CD for Robotics Workflows",
+    "msa_concept": "Containerized Robotic Components",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 203,
+    "reference_name": 45,
+    "devops_concept": "CI/CD Pipeline Automation",
+    "msa_concept": "RESTful Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 204,
+    "reference_name": 45,
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Cloud-Native Microservice Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 205,
+    "reference_name": 45,
+    "devops_concept": "Rollback and Recovery",
+    "msa_concept": "Microservice Fault Tolerance",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 206,
+    "reference_name": 45,
+    "devops_concept": "Automated Testing and Monitoring",
+    "msa_concept": "API Versioning in Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 207,
+    "reference_name": 45,
+    "devops_concept": "Multi-Cloud Deployment",
+    "msa_concept": "Distributed Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 208,
+    "reference_name": 46,
+    "devops_concept": "Failure Resilience Engineering",
+    "msa_concept": "Cloud-Edge Microservice Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 209,
+    "reference_name": 46,
+    "devops_concept": "Root Cause Analysis",
+    "msa_concept": "Microservice Affinity/Anti-Affinity",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 210,
+    "reference_name": 46,
+    "devops_concept": "Declarative Deployment Policies",
+    "msa_concept": "Distributed Microservice Orchestration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 211,
+    "reference_name": 46,
+    "devops_concept": "Sustainable DevOps Practices",
+    "msa_concept": "Resilience Constraints in Edge Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 212,
+    "reference_name": 47,
+    "devops_concept": "BizDevOps Integration",
+    "msa_concept": "Service-Oriented Governance",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 213,
+    "reference_name": 47,
+    "devops_concept": "Enterprise Architecture Alignment",
+    "msa_concept": "Microservices for Agile Business",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 214,
+    "reference_name": 47,
+    "devops_concept": "IT Governance in DevOps",
+    "msa_concept": "Decentralized Microservice Ownership",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 215,
+    "reference_name": 47,
+    "devops_concept": "Continuous Business-IT Collaboration",
+    "msa_concept": "Business Capability Mapping via Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 216,
+    "reference_name": 48,
+    "devops_concept": "Self-Service Deployment Portals",
+    "msa_concept": "Service Modularization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 217,
+    "reference_name": 48,
+    "devops_concept": "Infrastructure as a Service (IaaS)",
+    "msa_concept": "Componentized Service Design",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 218,
+    "reference_name": 48,
+    "devops_concept": "User-Centric Automation",
+    "msa_concept": "Composable Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 219,
+    "reference_name": 48,
+    "devops_concept": "Platform Engineering",
+    "msa_concept": "Distributed Service Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 220,
+    "reference_name": 49,
+    "devops_concept": "Elastic Deployment Management",
+    "msa_concept": "Microservice Instance Scaling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 221,
+    "reference_name": 49,
+    "devops_concept": "Infrastructure Adaptability",
+    "msa_concept": "Dynamic Microservice Evolution",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 222,
+    "reference_name": 49,
+    "devops_concept": "Deployment Orchestration",
+    "msa_concept": "Versioning and Service Churn",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 223,
+    "reference_name": 49,
+    "devops_concept": "Observability and Logging",
+    "msa_concept": "Inter-Service Dependency Tracking",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 224,
+    "reference_name": 50,
+    "devops_concept": "Platform Engineering",
+    "msa_concept": "Service Composition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 225,
+    "reference_name": 50,
+    "devops_concept": "Service Automation",
+    "msa_concept": "Modular Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 226,
+    "reference_name": 50,
+    "devops_concept": "Cloud-Native DevOps",
+    "msa_concept": "Composable Enterprise Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 227,
+    "reference_name": 50,
+    "devops_concept": "DevOps Enablement Platforms",
+    "msa_concept": "Dynamic Service Provisioning",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 228,
+    "reference_name": 51,
+    "devops_concept": "CI/CD Automation",
+    "msa_concept": "Micro-Frontend Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 229,
+    "reference_name": 51,
+    "devops_concept": "Automated Testing and Deployment",
+    "msa_concept": "Service Fragmentation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 230,
+    "reference_name": 51,
+    "devops_concept": "DevOps Toolchain Integration",
+    "msa_concept": "Modular UI Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 231,
+    "reference_name": 51,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Decentralized Frontend Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 232,
+    "reference_name": 52,
+    "devops_concept": "DevOps for CI/CD",
+    "msa_concept": "Independent Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 233,
+    "reference_name": 52,
+    "devops_concept": "Stress Testing with NGINX",
+    "msa_concept": "Microservice Load Testing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 234,
+    "reference_name": 52,
+    "devops_concept": "Agile Methodology",
+    "msa_concept": "Incremental Microservice Development",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 235,
+    "reference_name": 52,
+    "devops_concept": "Containerized Deployment",
+    "msa_concept": "Service Containerization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 236,
+    "reference_name": 52,
+    "devops_concept": "Runtime Verification",
+    "msa_concept": "Microservice Communication Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 237,
+    "reference_name": 53,
+    "devops_concept": "Monitoring and Observability",
+    "msa_concept": "Service Interaction Prediction",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 238,
+    "reference_name": 53,
+    "devops_concept": "Anomaly Detection Pipeline",
+    "msa_concept": "Telemetry Collection in Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 239,
+    "reference_name": 53,
+    "devops_concept": "Real-time Metrics Analysis",
+    "msa_concept": "Service Health Tracking",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 240,
+    "reference_name": 53,
+    "devops_concept": "Event Correlation and Alerting",
+    "msa_concept": "Distributed Service Logging",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 241,
+    "reference_name": 53,
+    "devops_concept": "DevOps Data-Driven Operations",
+    "msa_concept": "Fault Pattern Identification in Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 242,
+    "reference_name": 54,
+    "devops_concept": "CI/CD Automation",
+    "msa_concept": "Independent Deployment Units",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 243,
+    "reference_name": 54,
+    "devops_concept": "Scalable DevOps Pipelines",
+    "msa_concept": "Horizontal Service Scaling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 244,
+    "reference_name": 54,
+    "devops_concept": "Automated Configuration and Provisioning",
+    "msa_concept": "Dynamic Service Communication",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 245,
+    "reference_name": 54,
+    "devops_concept": "Performance Monitoring and Fault Tolerance",
+    "msa_concept": "Service Resilience",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 246,
+    "reference_name": 54,
+    "devops_concept": "DevOps in Distributed Environments",
+    "msa_concept": "Decentralized Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 247,
+    "reference_name": 55,
+    "devops_concept": "CI/CD and GitOps",
+    "msa_concept": "Cloud-Native Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 248,
+    "reference_name": 55,
+    "devops_concept": "Monitoring and Observability",
+    "msa_concept": "Kubernetes-Based Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 249,
+    "reference_name": 55,
+    "devops_concept": "Automated Recovery",
+    "msa_concept": "Fault-Tolerant Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 250,
+    "reference_name": 55,
+    "devops_concept": "Authentication and Encryption",
+    "msa_concept": "Secure Microservices Communication",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 251,
+    "reference_name": 55,
+    "devops_concept": "Blue-Green and Canary Deployment",
+    "msa_concept": "Service Resilience and Availability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 252,
+    "reference_name": 55,
+    "devops_concept": "AI/ML Integration in Operations",
+    "msa_concept": "Edge-Enabled Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 253,
+    "reference_name": 56,
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "AWS Cloud-Native Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 254,
+    "reference_name": 56,
+    "devops_concept": "CI/CD Pipelines",
+    "msa_concept": "Java-Based Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 255,
+    "reference_name": 56,
+    "devops_concept": "Monitoring and Logging",
+    "msa_concept": "Scalable Microservice Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 256,
+    "reference_name": 56,
+    "devops_concept": "Automation and Orchestration",
+    "msa_concept": "Elastic Load Balancing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 257,
+    "reference_name": 56,
+    "devops_concept": "DevOps on AWS",
+    "msa_concept": "Service Auto-Scaling",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 258,
+    "reference_name": 57,
+    "devops_concept": "Refactoring Automation",
+    "msa_concept": "Monolith-to-Microservices Decomposition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 259,
+    "reference_name": 57,
+    "devops_concept": "Source Code Analysis",
+    "msa_concept": "Service Extraction",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 260,
+    "reference_name": 57,
+    "devops_concept": "Tool-Assisted Migration",
+    "msa_concept": "Automated Microservice Identification",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 261,
+    "reference_name": 57,
+    "devops_concept": "Change Impact Analysis",
+    "msa_concept": "Service Boundaries Detection",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 262,
+    "reference_name": 58,
+    "devops_concept": "Boundary Definition for CI/CD Pipelines",
+    "msa_concept": "Service Boundary Identification",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 263,
+    "reference_name": 58,
+    "devops_concept": "Automated Refactoring Tools",
+    "msa_concept": "Migration from Monolith to Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 264,
+    "reference_name": 58,
+    "devops_concept": "Tool-Supported Transformation",
+    "msa_concept": "Microservice Boundary Optimization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 265,
+    "reference_name": 58,
+    "devops_concept": "Continuous Integration with Decomposed Services",
+    "msa_concept": "Domain-Driven Design",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 266,
+    "reference_name": 59,
+    "devops_concept": "Monitoring and Observability",
+    "msa_concept": "Distributed Microservices Logging",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 267,
+    "reference_name": 59,
+    "devops_concept": "Tool Evaluation and Selection",
+    "msa_concept": "Service Metrics Collection",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 268,
+    "reference_name": 59,
+    "devops_concept": "Alerting and Failure Detection",
+    "msa_concept": "Inter-Service Communication Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 269,
+    "reference_name": 59,
+    "devops_concept": "Logging Pipelines and Dashboards",
+    "msa_concept": "Traceability Across Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 270,
+    "reference_name": 59,
+    "devops_concept": "Integration of Monitoring in CI/CD",
+    "msa_concept": "Container-Based Microservices Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 271,
+    "reference_name": 60,
+    "devops_concept": "MLOps Pipeline Automation",
+    "msa_concept": "Componentized Model Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 272,
+    "reference_name": 60,
+    "devops_concept": "Versioning of Models and Code",
+    "msa_concept": "Service Isolation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 273,
+    "reference_name": 60,
+    "devops_concept": "Monitoring of ML Pipelines",
+    "msa_concept": "Service-Based Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 274,
+    "reference_name": 60,
+    "devops_concept": "Continuous Integration of ML Components",
+    "msa_concept": "Containerized Microservices for ML",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 275,
+    "reference_name": 60,
+    "devops_concept": "Artifact Management in DevOps",
+    "msa_concept": "Orchestration of Model Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 276,
+    "reference_name": 61,
+    "devops_concept": "AI-Augmented Decision Making in DevOps",
+    "msa_concept": "AI-Enhanced Service Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 277,
+    "reference_name": 61,
+    "devops_concept": "Intelligent CI/CD Optimization",
+    "msa_concept": "Service Scalability Prediction",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 278,
+    "reference_name": 61,
+    "devops_concept": "Automated Anomaly Detection",
+    "msa_concept": "Dynamic Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 279,
+    "reference_name": 61,
+    "devops_concept": "Data-Driven DevOps Pipelines",
+    "msa_concept": "Service Behavior Analysis",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 280,
+    "reference_name": 61,
+    "devops_concept": "Performance Optimization using ML",
+    "msa_concept": "Adaptive Microservice Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 281,
+    "reference_name": 62,
+    "devops_concept": "DevSecOps Metrics for Security Validation",
+    "msa_concept": "Web Microservices Security Metrics",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 282,
+    "reference_name": 62,
+    "devops_concept": "Automated Security Assessment",
+    "msa_concept": "Microservice Vulnerability Detection",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 283,
+    "reference_name": 62,
+    "devops_concept": "Cloud-Based CI/CD Security Monitoring",
+    "msa_concept": "Service-Level Access Control",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 284,
+    "reference_name": 62,
+    "devops_concept": "Compliance-Oriented Deployment",
+    "msa_concept": "Secure Microservice Interfaces",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 285,
+    "reference_name": 62,
+    "devops_concept": "Threat Modeling in Pipelines",
+    "msa_concept": "Microservices Attack Surface Analysis",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 286,
+    "reference_name": 63,
+    "devops_concept": "Cloud-Native CI/CD Implementation",
+    "msa_concept": "Service Componentization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 287,
+    "reference_name": 63,
+    "devops_concept": "Container-Based Deployment",
+    "msa_concept": "Service Discovery",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 288,
+    "reference_name": 63,
+    "devops_concept": "Continuous Delivery Architecture",
+    "msa_concept": "Distributed Microservices Architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 289,
+    "reference_name": 63,
+    "devops_concept": "Infrastructure Automation",
+    "msa_concept": "Independent Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 290,
+    "reference_name": 63,
+    "devops_concept": "Monitoring and Logging for Cloud Systems",
+    "msa_concept": "Cloud-Native Microservice Resilience",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 291,
+    "reference_name": 64,
+    "devops_concept": "Accelerated CI/CD for eCommerce",
+    "msa_concept": "Scalable eCommerce Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 292,
+    "reference_name": 64,
+    "devops_concept": "Automated Deployment Pipelines",
+    "msa_concept": "Independent Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 293,
+    "reference_name": 64,
+    "devops_concept": "Rapid Delivery with DevOps",
+    "msa_concept": "API-Centric Service Composition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 294,
+    "reference_name": 64,
+    "devops_concept": "Performance Monitoring and Feedback",
+    "msa_concept": "Service Resilience and Scalability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 295,
+    "reference_name": 64,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Containerized Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 296,
+    "reference_name": 65,
+    "devops_concept": "Observability in CI/CD Pipelines",
+    "msa_concept": "Distributed Tracing in Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 297,
+    "reference_name": 65,
+    "devops_concept": "Monitoring and Logging Practices",
+    "msa_concept": "Service-Level Telemetry",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 298,
+    "reference_name": 65,
+    "devops_concept": "Performance Bottleneck Analysis",
+    "msa_concept": "Inter-Service Communication Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 299,
+    "reference_name": 65,
+    "devops_concept": "Real-Time Feedback Loops",
+    "msa_concept": "Latency and Failure Analysis",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 300,
+    "reference_name": 65,
+    "devops_concept": "Metrics Collection and Visualization",
+    "msa_concept": "Component-Based Monitoring",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 301,
+    "reference_name": 66,
+    "devops_concept": "DevOps Curriculum Design",
+    "msa_concept": "Service Decomposition Principles",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 302,
+    "reference_name": 66,
+    "devops_concept": "Hands-on CI/CD Tool Training",
+    "msa_concept": "Cloud-Native Microservice Development",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 303,
+    "reference_name": 66,
+    "devops_concept": "Agile and DevOps Integration in Education",
+    "msa_concept": "API Gateway Usage",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 304,
+    "reference_name": 66,
+    "devops_concept": "Automation and Containerization Skills",
+    "msa_concept": "Independent Service Deployability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 305,
+    "reference_name": 66,
+    "devops_concept": "Monitoring and Logging for Student Projects",
+    "msa_concept": "Observability of Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 306,
+    "reference_name": 67,
+    "devops_concept": "AI Integration in CI/CD",
+    "msa_concept": "AI-assisted Service Composition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 307,
+    "reference_name": 67,
+    "devops_concept": "Automated DevOps Decision Making",
+    "msa_concept": "ML for Service Discovery",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 308,
+    "reference_name": 67,
+    "devops_concept": "DevOps Process Optimization with ML",
+    "msa_concept": "Intelligent Scaling of Services",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 309,
+    "reference_name": 67,
+    "devops_concept": "Anomaly Detection in DevOps Pipelines",
+    "msa_concept": "Predictive Monitoring of Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 310,
+    "reference_name": 67,
+    "devops_concept": "Continuous Feedback Enhancement",
+    "msa_concept": "AI-Supported Deployment Decisions",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 311,
+    "reference_name": 68,
+    "devops_concept": "DevOps Pipeline Integration",
+    "msa_concept": "Cloud-Native Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 312,
+    "reference_name": 68,
+    "devops_concept": "Continuous Delivery",
+    "msa_concept": "Service-Oriented Decomposition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 313,
+    "reference_name": 68,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Microservices Deployment Automation",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 314,
+    "reference_name": 68,
+    "devops_concept": "Monitoring and Observability",
+    "msa_concept": "Distributed Service Management",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 315,
+    "reference_name": 68,
+    "devops_concept": "AI-Augmented DevOps",
+    "msa_concept": "Intelligent Microservice Orchestration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 316,
+    "reference_name": 69,
+    "devops_concept": "Continuous Integration / Continuous Delivery (CI/CD)",
+    "msa_concept": "AI-enhanced automation in modular systems",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 317,
+    "reference_name": 69,
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Cloud-native architectural flexibility",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 318,
+    "reference_name": 69,
+    "devops_concept": "AI-powered Monitoring / Incident Management",
+    "msa_concept": "Scalable deployment in service-based systems",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 319,
+    "reference_name": 69,
+    "devops_concept": "DevOps Tools",
+    "msa_concept": "Distributed service deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 320,
+    "reference_name": 69,
+    "devops_concept": "DevOps-DataOps Synergy",
+    "msa_concept": "Microservices supporting agile infrastructure",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 321,
+    "reference_name": 70,
+    "devops_concept": "Continuous Delivery",
+    "msa_concept": "Cloud-native distributed architecture",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 322,
+    "reference_name": 70,
+    "devops_concept": "Deployment Automation",
+    "msa_concept": "Content Delivery via Microservices",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 323,
+    "reference_name": 70,
+    "devops_concept": "DevOps Toolchain Integration",
+    "msa_concept": "Service-based CDN modules",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 324,
+    "reference_name": 70,
+    "devops_concept": "Monitoring and Feedback Loops",
+    "msa_concept": "Scalable Service Orchestration",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 325,
+    "reference_name": 70,
+    "devops_concept": "Pipeline Automation",
+    "msa_concept": "Componentized Service Deployment",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 326,
+    "reference_name": 72,
+    "devops_concept": "Automation",
+    "msa_concept": "Function-as-a-Service (FaaS)",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 327,
+    "reference_name": 72,
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Event-driven Execution",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 328,
+    "reference_name": 72,
+    "devops_concept": "Monitoring and Management",
+    "msa_concept": "Elastic Scalability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 329,
+    "reference_name": 72,
+    "devops_concept": "Security Management",
+    "msa_concept": "Security in Serverless Architectures",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 330,
+    "reference_name": 73,
+    "devops_concept": "Continuous Delivery",
+    "msa_concept": "Service-Oriented Architecture (SOA)",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 331,
+    "reference_name": 73,
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Containerization",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 332,
+    "reference_name": 73,
+    "devops_concept": "CI/CD",
+    "msa_concept": "Service Choreography",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 333,
+    "reference_name": 73,
+    "devops_concept": "Observability",
+    "msa_concept": "Service Mesh",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 334,
+    "reference_name": 73,
+    "devops_concept": "Automation",
+    "msa_concept": "Lightweight Communication",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 335,
+    "reference_name": 73,
+    "devops_concept": "Monitoring",
+    "msa_concept": "API Gateway",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 336,
+    "reference_name": 73,
+    "devops_concept": "Agile Practices",
+    "msa_concept": "Service Decomposition",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 337,
+    "reference_name": 73,
+    "devops_concept": "Logging",
+    "msa_concept": "Distributed Tracing",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "id": 338,
+    "reference_name": 73,
+    "devops_concept": "Testing Automation",
+    "msa_concept": "Service Reliability",
+    "definition": "",
+    "taxonomy_category": "Deployment Automation"
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically integrating and testing code changes into a software project on a frequent basis.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "exaCB: Reproducible Continuous Benchmark Collections at Scale Leveraging an Incremental Approach",
+    "source_arxiv_id": "2603.22251v1",
+    "id": 339
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying code changes into production after they have been integrated and tested.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "exaCB: Reproducible Continuous Benchmark Collections at Scale Leveraging an Incremental Approach",
+    "source_arxiv_id": "2603.22251v1",
+    "id": 340
+  },
+  {
+    "devops_concept": "Continuous Benchmarking",
+    "msa_concept": "Performance Monitoring",
+    "definition": "The practice of continuously evaluating the performance of a system or application to identify areas for improvement.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "exaCB: Reproducible Continuous Benchmark Collections at Scale Leveraging an Incremental Approach",
+    "source_arxiv_id": "2603.22251v1",
+    "id": 341
+  },
+  {
+    "devops_concept": "Reproducibility",
+    "msa_concept": "Service Reliability",
+    "definition": "The ability to reproduce the results of an experiment or test, which is critical for ensuring the reliability and consistency of a system or application.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "exaCB: Reproducible Continuous Benchmark Collections at Scale Leveraging an Incremental Approach",
+    "source_arxiv_id": "2603.22251v1",
+    "id": 342
+  },
+  {
+    "devops_concept": "Incremental Adoption",
+    "msa_concept": "Service Evolution",
+    "definition": "The practice of gradually introducing new features or components into a system or application, allowing for incremental improvement and reduction of risk.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "exaCB: Reproducible Continuous Benchmark Collections at Scale Leveraging an Incremental Approach",
+    "source_arxiv_id": "2603.22251v1",
+    "id": 343
+  },
+  {
+    "devops_concept": "CI/CD Pipelines",
+    "msa_concept": "Service Orchestration",
+    "definition": "The automated processes that integrate and deploy code changes into a software project, from initial commit to production deployment.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "exaCB: Reproducible Continuous Benchmark Collections at Scale Leveraging an Incremental Approach",
+    "source_arxiv_id": "2603.22251v1",
+    "id": 344
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Service Orchestration",
+    "definition": "The practice of automating the build, test, and deployment of software or hardware systems",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "DRCY: Agentic Hardware Design Reviews",
+    "source_arxiv_id": "2603.15672v1",
+    "id": 345
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Component Testing",
+    "definition": "The use of automated tools to verify that a system or component meets its requirements",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "DRCY: Agentic Hardware Design Reviews",
+    "source_arxiv_id": "2603.15672v1",
+    "id": 346
+  },
+  {
+    "devops_concept": "Pipeline Architecture",
+    "msa_concept": "Microservice Architecture",
+    "definition": "The design and structure of a system's workflow or process",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DRCY: Agentic Hardware Design Reviews",
+    "source_arxiv_id": "2603.15672v1",
+    "id": 347
+  },
+  {
+    "devops_concept": "Collaborative Development",
+    "msa_concept": "Service Collaboration",
+    "definition": "The practice of multiple stakeholders working together on a system or project",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "empirical",
+    "source_title": "DRCY: Agentic Hardware Design Reviews",
+    "source_arxiv_id": "2603.15672v1",
+    "id": 348
+  },
+  {
+    "devops_concept": "Design Review",
+    "msa_concept": "Architecture Review",
+    "definition": "The process of evaluating a system's design or architecture",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "empirical",
+    "source_title": "DRCY: Agentic Hardware Design Reviews",
+    "source_arxiv_id": "2603.15672v1",
+    "id": 349
+  },
+  {
+    "devops_concept": "Error Detection",
+    "msa_concept": "Fault Detection",
+    "definition": "The process of identifying errors or faults in a system",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "DRCY: Agentic Hardware Design Reviews",
+    "source_arxiv_id": "2603.15672v1",
+    "id": 350
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automating the build, test, and deployment of software applications",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 351
+  },
+  {
+    "devops_concept": "Observability",
+    "msa_concept": "System Monitoring",
+    "definition": "The ability to measure and understand the internal state of a system",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 352
+  },
+  {
+    "devops_concept": "Version Control",
+    "msa_concept": "Service Versioning",
+    "definition": "The practice of managing changes to software codebase",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 353
+  },
+  {
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Infrastructure Configuration",
+    "definition": "The practice of managing infrastructure configuration through code",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 354
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Validation",
+    "definition": "The practice of automating the testing of software applications",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 355
+  },
+  {
+    "devops_concept": "Monitoring",
+    "msa_concept": "System Monitoring",
+    "definition": "The practice of collecting and analyzing data about system performance",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 356
+  },
+  {
+    "devops_concept": "Logging",
+    "msa_concept": "Service Logging",
+    "definition": "The practice of collecting and storing log data from software applications",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 357
+  },
+  {
+    "devops_concept": "ELT (Extract, Load, Transform) Pipeline",
+    "msa_concept": "Data Processing Pipeline",
+    "definition": "A pipeline that extracts data from sources, loads it into a target system, and transforms it into a usable format",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 358
+  },
+  {
+    "devops_concept": "Registry-Driven Architecture",
+    "msa_concept": "Service Registry",
+    "definition": "An architecture that uses a registry to manage and configure services",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 359
+  },
+  {
+    "devops_concept": "Declarative Configuration",
+    "msa_concept": "Service Configuration",
+    "definition": "A configuration approach that focuses on what the system should be, rather than how to achieve it",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "source_arxiv_id": "2603.03018v1",
+    "id": 360
+  },
+  {
+    "devops_concept": "Continuous Integration (CI)",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently, usually through automated testing and validation.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Building the ethical AI framework of the future: from philosophy to practice",
+    "source_arxiv_id": "2603.06599v1",
+    "id": 361
+  },
+  {
+    "devops_concept": "Continuous Deployment (CD)",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The practice of automatically deploying code changes into production after they pass automated testing and validation.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Building the ethical AI framework of the future: from philosophy to practice",
+    "source_arxiv_id": "2603.06599v1",
+    "id": 362
+  },
+  {
+    "devops_concept": "Monitoring",
+    "msa_concept": "Microservice Monitoring",
+    "definition": "The practice of continuously collecting and analyzing data about the performance and health of a system or application.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "Building the ethical AI framework of the future: from philosophy to practice",
+    "source_arxiv_id": "2603.06599v1",
+    "id": 363
+  },
+  {
+    "devops_concept": "Audit",
+    "msa_concept": "Microservice Auditing",
+    "definition": "The practice of examining and evaluating the security, compliance, and performance of a system or application.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Building the ethical AI framework of the future: from philosophy to practice",
+    "source_arxiv_id": "2603.06599v1",
+    "id": 364
+  },
+  {
+    "devops_concept": "MLOps",
+    "msa_concept": "Microservice Orchestration",
+    "definition": "The practice of streamlining and automating the machine learning lifecycle, from data preparation to model deployment.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Building the ethical AI framework of the future: from philosophy to practice",
+    "source_arxiv_id": "2603.06599v1",
+    "id": 365
+  },
+  {
+    "devops_concept": "Pipeline",
+    "msa_concept": "Microservice Workflow",
+    "definition": "A series of automated processes that are linked together to achieve a specific goal, such as deploying software or training a machine learning model.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Building the ethical AI framework of the future: from philosophy to practice",
+    "source_arxiv_id": "2603.06599v1",
+    "id": 366
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 367
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The practice of automatically deploying code changes into production after passing automated tests",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 368
+  },
+  {
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Microservice Orchestration",
+    "definition": "A series of automated processes that integrate code changes, build, test, and deploy software",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 369
+  },
+  {
+    "devops_concept": "Containerization",
+    "msa_concept": "Microservice Packaging",
+    "definition": "The practice of packaging software into containers to ensure consistency and reliability",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 370
+  },
+  {
+    "devops_concept": "Monitoring",
+    "msa_concept": "Microservice Monitoring",
+    "definition": "The practice of collecting and analyzing data to understand system performance and behavior",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 371
+  },
+  {
+    "devops_concept": "Load Testing",
+    "msa_concept": "Microservice Performance Testing",
+    "definition": "The practice of simulating user traffic to test system performance under various loads",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 372
+  },
+  {
+    "devops_concept": "Energy Efficiency",
+    "msa_concept": "Microservice Sustainability",
+    "definition": "The practice of optimizing system performance to minimize energy consumption",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 373
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Microservice Testing",
+    "definition": "The practice of using automated tools to test software functionality and performance",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 374
+  },
+  {
+    "devops_concept": "Version Control",
+    "msa_concept": "Microservice Versioning",
+    "definition": "The practice of managing changes to software codebase using version control systems",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 375
+  },
+  {
+    "devops_concept": "GitLab CI",
+    "msa_concept": "Microservice CI/CD Tooling",
+    "definition": "A tool for automating continuous integration and continuous deployment pipelines",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "PPTAM$\u03b7$: Energy Aware CI/CD Pipeline for Container Based Applications",
+    "source_arxiv_id": "2602.12081v1",
+    "id": 376
+  },
+  {
+    "devops_concept": "DevSecOps",
+    "msa_concept": "Security",
+    "definition": "The integration of security practices into DevOps pipelines to ensure the security of software development and deployment",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "source_arxiv_id": "2602.09774v1",
+    "id": 377
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Deployment",
+    "definition": "The practice of automatically building, testing, and deploying software changes into production",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "source_arxiv_id": "2602.09774v1",
+    "id": 378
+  },
+  {
+    "devops_concept": "Static Application Security Testing (SAST)",
+    "msa_concept": "Vulnerability Detection",
+    "definition": "A type of security testing that analyzes source code for potential security vulnerabilities",
+    "taxonomy_category": "Security",
+    "evidence_type": "empirical",
+    "source_title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "source_arxiv_id": "2602.09774v1",
+    "id": 379
+  },
+  {
+    "devops_concept": "Software Development Lifecycle (SDLC)",
+    "msa_concept": "Development Process",
+    "definition": "A framework that outlines the stages involved in software development, from planning to deployment",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "source_arxiv_id": "2602.09774v1",
+    "id": 380
+  },
+  {
+    "devops_concept": "Vulnerability Management",
+    "msa_concept": "Security",
+    "definition": "The process of identifying, classifying, prioritizing, and remediating security vulnerabilities in software",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "source_arxiv_id": "2602.09774v1",
+    "id": 381
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Quality Assurance",
+    "definition": "The use of software tools to execute tests automatically, reducing the need for manual testing",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "source_arxiv_id": "2602.09774v1",
+    "id": 382
+  },
+  {
+    "devops_concept": "False Positives",
+    "msa_concept": "Error Detection",
+    "definition": "Incorrectly identified vulnerabilities or issues that do not actually exist",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "source_arxiv_id": "2602.09774v1",
+    "id": 383
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently, usually through automated testing and validation.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 384
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Microservice Release Management",
+    "definition": "The practice of automatically deploying code changes into production after they pass automated testing and validation.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 385
+  },
+  {
+    "devops_concept": "Continuous Testing",
+    "msa_concept": "Microservice Validation",
+    "definition": "The practice of automatically testing code changes as part of the continuous integration and deployment process.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 386
+  },
+  {
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Microservice Configuration Management",
+    "definition": "The practice of managing infrastructure configuration through code, rather than through a graphical user interface.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 387
+  },
+  {
+    "devops_concept": "CI/CD Pipelines",
+    "msa_concept": "Microservice Deployment Pipelines",
+    "definition": "The automated process of building, testing, and deploying code changes into production.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 388
+  },
+  {
+    "devops_concept": "Automated Deployment",
+    "msa_concept": "Microservice Automated Deployment",
+    "definition": "The practice of automatically deploying code changes into production without human intervention.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 389
+  },
+  {
+    "devops_concept": "Monitoring and Logging",
+    "msa_concept": "Microservice Monitoring and Logging",
+    "definition": "The practice of collecting and analyzing data from applications and infrastructure to identify issues and improve performance.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 390
+  },
+  {
+    "devops_concept": "Architecture Reconstruction",
+    "msa_concept": "Microservice Architecture Reconstruction",
+    "definition": "The process of extracting architectural information from a system's artifacts, such as source code and configuration files.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "ModARO: A Modular Approach to Architecture Reconstruction of Distributed Microservice Codebases",
+    "source_arxiv_id": "2602.08181v1",
+    "id": 391
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The practice of integrating code changes into a central repository frequently, and automatically deploying the changes to production",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 392
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Microservice Validation",
+    "definition": "The use of software to control the execution of tests, and the comparison of actual outcomes to expected outcomes",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 393
+  },
+  {
+    "devops_concept": "Progressive Deployment",
+    "msa_concept": "Canary Release",
+    "definition": "A deployment strategy where a new version of a service is released to a small subset of users before rolling it out to the entire user base",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 394
+  },
+  {
+    "devops_concept": "Service Mesh",
+    "msa_concept": "Service Mesh",
+    "definition": "A configurable infrastructure layer for microservices that makes it easy to manage service discovery, traffic management, and security",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 395
+  },
+  {
+    "devops_concept": "Observability",
+    "msa_concept": "Microservice Monitoring",
+    "definition": "The ability to measure the internal state of a system by examining its outputs",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 396
+  },
+  {
+    "devops_concept": "Kubernetes",
+    "msa_concept": "Container Orchestration",
+    "definition": "An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 397
+  },
+  {
+    "devops_concept": "A/B Testing",
+    "msa_concept": "Microservice Validation",
+    "definition": "A method of comparing two versions of a service to determine which one performs better",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 398
+  },
+  {
+    "devops_concept": "Circuit Breaking",
+    "msa_concept": "Microservice Resilience",
+    "definition": "A pattern that detects when a service is not responding and prevents further requests from being sent to it until it becomes available again",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 399
+  },
+  {
+    "devops_concept": "Lifecycle Management",
+    "msa_concept": "Microservice Lifecycle Management",
+    "definition": "The process of managing the lifecycle of a microservice, from development to deployment and maintenance",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN",
+    "source_arxiv_id": "2601.14009v1",
+    "id": 400
+  },
+  {
+    "devops_concept": "Continuous Monitoring",
+    "msa_concept": "Distributed Monitoring",
+    "definition": "The process of continuously monitoring the behavior and performance of a system to identify areas for improvement.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "Architecting AgentOps Needs CHANGE",
+    "source_arxiv_id": "2601.06456v1",
+    "id": 401
+  },
+  {
+    "devops_concept": "Version Control",
+    "msa_concept": "Service Versioning",
+    "definition": "The practice of managing changes to code, configuration, and other system components through version control systems.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Architecting AgentOps Needs CHANGE",
+    "source_arxiv_id": "2601.06456v1",
+    "id": 402
+  },
+  {
+    "devops_concept": "Rollback",
+    "msa_concept": "Service Rollback",
+    "definition": "The ability to revert a system or component to a previous version or state in case of errors or issues.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Architecting AgentOps Needs CHANGE",
+    "source_arxiv_id": "2601.06456v1",
+    "id": 403
+  },
+  {
+    "devops_concept": "Continuous Evolution",
+    "msa_concept": "Service Evolution",
+    "definition": "The ability of a system to adapt and change over time in response to changing requirements and conditions.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Architecting AgentOps Needs CHANGE",
+    "source_arxiv_id": "2601.06456v1",
+    "id": 404
+  },
+  {
+    "devops_concept": "Dynamic Configuration",
+    "msa_concept": "Service Configuration",
+    "definition": "The ability to change the configuration of a system or component dynamically in response to changing conditions.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Architecting AgentOps Needs CHANGE",
+    "source_arxiv_id": "2601.06456v1",
+    "id": 405
+  },
+  {
+    "devops_concept": "Feedback Loop",
+    "msa_concept": "Service Feedback Loop",
+    "definition": "The process of collecting feedback from users or systems and using it to improve the system or component.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "Architecting AgentOps Needs CHANGE",
+    "source_arxiv_id": "2601.06456v1",
+    "id": 406
+  },
+  {
+    "devops_concept": "Non-Determinism",
+    "msa_concept": "Service Non-Determinism",
+    "definition": "The property of a system or component that its behavior cannot be predicted with certainty.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Architecting AgentOps Needs CHANGE",
+    "source_arxiv_id": "2601.06456v1",
+    "id": 407
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Microservice Architecture",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently, usually through automated testing and validation.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 408
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The practice of automatically deploying code changes to production after they have been integrated and tested.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 409
+  },
+  {
+    "devops_concept": "Test Automation",
+    "msa_concept": "Service Testing",
+    "definition": "The use of software to automate the testing of software applications, reducing the need for manual testing.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 410
+  },
+  {
+    "devops_concept": "Continuous Testing",
+    "msa_concept": "Service Validation",
+    "definition": "The practice of continuously testing software applications throughout the development and deployment process.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 411
+  },
+  {
+    "devops_concept": "Feedback Loop",
+    "msa_concept": "Service Feedback",
+    "definition": "A process where feedback from one stage of a process is used to improve the next stage of the process.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 412
+  },
+  {
+    "devops_concept": "Reinforcement Learning",
+    "msa_concept": "Service Optimization",
+    "definition": "A type of machine learning where an agent learns to take actions to maximize a reward or minimize a penalty.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 413
+  },
+  {
+    "devops_concept": "Autonomous Quality Assurance",
+    "msa_concept": "Self-Healing Services",
+    "definition": "The use of artificial intelligence and machine learning to automate the testing and validation of software applications.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 414
+  },
+  {
+    "devops_concept": "Cloud-Native Applications",
+    "msa_concept": "Microservice Architecture",
+    "definition": "Applications that are designed to take advantage of cloud computing principles and services.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 415
+  },
+  {
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Service Deployment Pipeline",
+    "definition": "A series of automated processes that integrate code changes, build, test, and deploy software applications.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 416
+  },
+  {
+    "devops_concept": "Sandboxed Execution",
+    "msa_concept": "Service Isolation",
+    "definition": "A technique where code is executed in a isolated environment to prevent it from affecting other parts of the system.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance",
+    "source_arxiv_id": "2601.02454v1",
+    "id": 417
+  },
+  {
+    "devops_concept": "Release",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The phase of the DevOps life cycle where the application is released to production.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 418
+  },
+  {
+    "devops_concept": "Ops",
+    "msa_concept": "Microservice Operations",
+    "definition": "The stage of the DevOps cycle where the application is monitored and maintained in production.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 419
+  },
+  {
+    "devops_concept": "Deployment",
+    "msa_concept": "Microservice Deployment",
+    "definition": "The process of deploying the application to production.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 420
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Microservice CI/CD",
+    "definition": "A practice that enables rapid iteration and release of software applications.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 421
+  },
+  {
+    "devops_concept": "Container Orchestration",
+    "msa_concept": "Microservice Containerization",
+    "definition": "The process of managing and coordinating containers in a distributed application.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 422
+  },
+  {
+    "devops_concept": "Configuration Management",
+    "msa_concept": "Microservice Configuration",
+    "definition": "The process of managing and configuring application resources and settings.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 423
+  },
+  {
+    "devops_concept": "Auto-Scaling",
+    "msa_concept": "Microservice Scaling",
+    "definition": "The ability of an application to automatically adjust its resources based on demand.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 424
+  },
+  {
+    "devops_concept": "Performance Optimization",
+    "msa_concept": "Microservice Performance Optimization",
+    "definition": "The process of improving the performance of an application.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 425
+  },
+  {
+    "devops_concept": "Monitoring",
+    "msa_concept": "Microservice Monitoring",
+    "definition": "The process of collecting and analyzing data about an application's performance and behavior.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 426
+  },
+  {
+    "devops_concept": "Service-Level Objectives (SLOs)",
+    "msa_concept": "Microservice SLOs",
+    "definition": "The key performance indicators that an application is expected to meet.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Optimal Configuration of API Resources in Cloud Native Computing",
+    "source_arxiv_id": "2512.23494v1",
+    "id": 427
+  },
+  {
+    "devops_concept": "Continuous Improvement",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of continually assessing and refining processes to achieve better outcomes.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A Systematic Analysis of Higher Education on Software Engineering in the Netherlands",
+    "source_arxiv_id": "2512.12650v1",
+    "id": 428
+  },
+  {
+    "devops_concept": "Process-Oriented",
+    "msa_concept": "Service Orchestration",
+    "definition": "The practice of designing and managing processes to achieve efficient and effective outcomes.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A Systematic Analysis of Higher Education on Software Engineering in the Netherlands",
+    "source_arxiv_id": "2512.12650v1",
+    "id": 429
+  },
+  {
+    "devops_concept": "DevOps",
+    "msa_concept": "Microservice Architecture",
+    "definition": "A set of practices that combines software development and operations to improve collaboration and efficiency.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A Systematic Analysis of Higher Education on Software Engineering in the Netherlands",
+    "source_arxiv_id": "2512.12650v1",
+    "id": 430
+  },
+  {
+    "devops_concept": "Testing",
+    "msa_concept": "Service Testing",
+    "definition": "The practice of evaluating software to ensure it meets requirements and works as expected.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "A Systematic Analysis of Higher Education on Software Engineering in the Netherlands",
+    "source_arxiv_id": "2512.12650v1",
+    "id": 431
+  },
+  {
+    "devops_concept": "Verification",
+    "msa_concept": "Service Validation",
+    "definition": "The practice of confirming that software meets specifications and requirements.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "A Systematic Analysis of Higher Education on Software Engineering in the Netherlands",
+    "source_arxiv_id": "2512.12650v1",
+    "id": 432
+  },
+  {
+    "devops_concept": "Security",
+    "msa_concept": "Service Security",
+    "definition": "The practice of protecting software and data from unauthorized access or malicious activity.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "A Systematic Analysis of Higher Education on Software Engineering in the Netherlands",
+    "source_arxiv_id": "2512.12650v1",
+    "id": 433
+  },
+  {
+    "devops_concept": "Maintenance",
+    "msa_concept": "Service Maintenance",
+    "definition": "The practice of updating and refining software to ensure it continues to meet requirements and works as expected.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A Systematic Analysis of Higher Education on Software Engineering in the Netherlands",
+    "source_arxiv_id": "2512.12650v1",
+    "id": 434
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically building, testing, and deploying software changes into production",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 435
+  },
+  {
+    "devops_concept": "Gating",
+    "msa_concept": "Service Governance",
+    "definition": "The process of controlling the flow of changes into production based on predefined criteria",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 436
+  },
+  {
+    "devops_concept": "Microservices",
+    "msa_concept": "Microservices Architecture",
+    "definition": "A software development technique that structures an application as a collection of small, independent services",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 437
+  },
+  {
+    "devops_concept": "API Gateway",
+    "msa_concept": "API Composition",
+    "definition": "An entry point for clients to access a collection of microservices",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 438
+  },
+  {
+    "devops_concept": "Real-time Feedback",
+    "msa_concept": "Event-Driven Architecture",
+    "definition": "The ability to provide immediate feedback to users or systems in response to changes or events",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 439
+  },
+  {
+    "devops_concept": "Reproducibility",
+    "msa_concept": "Immutable Infrastructure",
+    "definition": "The ability to consistently reproduce the same results or environment",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 440
+  },
+  {
+    "devops_concept": "Just-in-Time Defect Prediction (JIT-DP)",
+    "msa_concept": "Quality Assurance",
+    "definition": "A technique for predicting defects in software changes at the time of deployment",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 441
+  },
+  {
+    "devops_concept": "Diff Risk Scoring (DRS)",
+    "msa_concept": "Risk Management",
+    "definition": "A technique for estimating the likelihood of a software change introducing a defect",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 442
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Test-Driven Development",
+    "definition": "The practice of automatically executing tests to validate software changes",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 443
+  },
+  {
+    "devops_concept": "Deployment Artifacts",
+    "msa_concept": "Infrastructure as Code",
+    "definition": "The output of a deployment process, such as scripts or configuration files",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DRS-OSS: Practical Diff Risk Scoring with LLMs",
+    "source_arxiv_id": "2511.21964v2",
+    "id": 444
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 445
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying code changes into production after integration",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 446
+  },
+  {
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Service Orchestration",
+    "definition": "A series of automated processes that integrate code changes, build, test, and deploy software",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 447
+  },
+  {
+    "devops_concept": "Containerization",
+    "msa_concept": "Service Isolation",
+    "definition": "The practice of packaging software into containers that include all dependencies",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 448
+  },
+  {
+    "devops_concept": "Orchestration",
+    "msa_concept": "Service Orchestration",
+    "definition": "The automated management of software services, including deployment, scaling, and termination",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 449
+  },
+  {
+    "devops_concept": "Immutable Infrastructure",
+    "msa_concept": "Service Immutability",
+    "definition": "The practice of treating infrastructure as immutable, with changes made by replacing existing infrastructure",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 450
+  },
+  {
+    "devops_concept": "Atomic Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of deploying software in a single, atomic unit, with rollback capabilities",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 451
+  },
+  {
+    "devops_concept": "Automated Notification",
+    "msa_concept": "Service Monitoring",
+    "definition": "The automated sending of notifications upon completion of a deployment or other event",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 452
+  },
+  {
+    "devops_concept": "Secure SSH Connections",
+    "msa_concept": "Service Security",
+    "definition": "The use of secure SSH connections to protect communication between services",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 453
+  },
+  {
+    "devops_concept": "Pipeline-as-Code",
+    "msa_concept": "Service Configuration",
+    "definition": "The practice of defining pipeline configurations as code, allowing for version control and reuse",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "An Architecture for Remote Container Builds and Artifact Delivery Using a Controller-Light Jenkins CI/CD Pipeline",
+    "source_arxiv_id": "2511.05720v2",
+    "id": 454
+  },
+  {
+    "devops_concept": "Continuous Authentication",
+    "msa_concept": "Service Mesh",
+    "definition": "The process of continuously verifying the identity of users and services in a microservices architecture.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 455
+  },
+  {
+    "devops_concept": "Continuous Authorization",
+    "msa_concept": "Service Mesh",
+    "definition": "The process of continuously verifying the permissions and access rights of users and services in a microservices architecture.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 456
+  },
+  {
+    "devops_concept": "Identity Federation",
+    "msa_concept": "Service Discovery",
+    "definition": "The process of establishing trust between multiple domains, cloud infrastructure, and service clusters to enable secure communication and authentication.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 457
+  },
+  {
+    "devops_concept": "Zero Trust Security Model",
+    "msa_concept": "Microservices Security",
+    "definition": "A security philosophy that assumes no trust and verifies all communications and interactions between users, devices, and workloads.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 458
+  },
+  {
+    "devops_concept": "DevSecOps",
+    "msa_concept": "Microservices Deployment",
+    "definition": "The integration of security practices and principles into the DevOps pipeline to ensure secure and compliant microservices deployment.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 459
+  },
+  {
+    "devops_concept": "Automation",
+    "msa_concept": "Microservices Deployment",
+    "definition": "The use of automated tools and processes to deploy and manage microservices architectures.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 460
+  },
+  {
+    "devops_concept": "Scalability",
+    "msa_concept": "Microservices Architecture",
+    "definition": "The ability of a microservices architecture to scale up or down to meet changing demands and requirements.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 461
+  },
+  {
+    "devops_concept": "Resilience",
+    "msa_concept": "Microservices Architecture",
+    "definition": "The ability of a microservices architecture to withstand and recover from failures and disruptions.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 462
+  },
+  {
+    "devops_concept": "OAuth 2.0",
+    "msa_concept": "Service Authentication",
+    "definition": "An industry-standard authorization framework that enables secure authentication and authorization in microservices architectures.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 463
+  },
+  {
+    "devops_concept": "OpenID Connect (OIDC)",
+    "msa_concept": "Service Authentication",
+    "definition": "An industry-standard authentication protocol that enables secure authentication and authorization in microservices architectures.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "source_arxiv_id": "2511.04925v1",
+    "id": 464
+  },
+  {
+    "devops_concept": "GitOps",
+    "msa_concept": "Declarative Communication",
+    "definition": "A approach to managing infrastructure and applications using Git as the single source of truth",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 465
+  },
+  {
+    "devops_concept": "Infrastructure as Code (IaC)",
+    "msa_concept": "Declarative Configuration",
+    "definition": "The practice of managing infrastructure through code and version control systems",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 466
+  },
+  {
+    "devops_concept": "Continuous Reconciliation",
+    "msa_concept": "Event-Driven Architecture",
+    "definition": "The process of continuously comparing the desired state with the actual state and making adjustments as needed",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 467
+  },
+  {
+    "devops_concept": "Declarative Automation",
+    "msa_concept": "Decoupled Components",
+    "definition": "The use of declarative languages to define the desired state of a system, rather than imperative scripts",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 468
+  },
+  {
+    "devops_concept": "Loose Coupling",
+    "msa_concept": "Service Autonomy",
+    "definition": "A design principle that aims to reduce the dependencies between components or systems",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 469
+  },
+  {
+    "devops_concept": "Auditing and Logging",
+    "msa_concept": "Transparent Communication",
+    "definition": "The practice of tracking and recording events and changes within a system",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 470
+  },
+  {
+    "devops_concept": "Version Control",
+    "msa_concept": "Change Management",
+    "definition": "The practice of managing changes to code, configuration, or other digital content",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 471
+  },
+  {
+    "devops_concept": "Asynchronous Communication",
+    "msa_concept": "Non-Blocking Interactions",
+    "definition": "A communication pattern that allows components to exchange information without blocking or waiting for a response",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 472
+  },
+  {
+    "devops_concept": "Custom Resources",
+    "msa_concept": "Domain-Specific Modeling",
+    "definition": "A mechanism for extending the functionality of a system through custom-defined resources",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 473
+  },
+  {
+    "devops_concept": "Kubernetes Operators",
+    "msa_concept": "Automation and Orchestration",
+    "definition": "A framework for building and managing applications on Kubernetes",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "GITER: A Git-Based Declarative Exchange Model Using Kubernetes-Style Custom Resources",
+    "source_arxiv_id": "2511.04182v1",
+    "id": 474
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically building and testing code changes as they are committed to a version control system.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 475
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying code changes to production after they have been built and tested.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 476
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Validation",
+    "definition": "The use of automated tools to execute tests and validate the functionality of code changes.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 477
+  },
+  {
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Service Template",
+    "definition": "The practice of managing infrastructure configuration through code, rather than manual processes.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 478
+  },
+  {
+    "devops_concept": "Version Control",
+    "msa_concept": "Service Versioning",
+    "definition": "The use of version control systems to manage changes to code and track changes over time.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 479
+  },
+  {
+    "devops_concept": "Containerization",
+    "msa_concept": "Service Isolation",
+    "definition": "The use of containers to isolate and package applications, making them easier to deploy and manage.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 480
+  },
+  {
+    "devops_concept": "Caching",
+    "msa_concept": "Service Optimization",
+    "definition": "The use of caching mechanisms to improve performance and reduce the time it takes to build and deploy applications.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 481
+  },
+  {
+    "devops_concept": "Monitoring",
+    "msa_concept": "Service Monitoring",
+    "definition": "The use of tools and techniques to monitor and observe the performance and behavior of applications.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 482
+  },
+  {
+    "devops_concept": "Distributed Builds",
+    "msa_concept": "Service Scaling",
+    "definition": "The use of distributed build systems to improve the speed and efficiency of build processes.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 483
+  },
+  {
+    "devops_concept": "Multi-Stage Builds",
+    "msa_concept": "Service Optimization",
+    "definition": "The use of multi-stage build processes to improve the efficiency and performance of build processes.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "A General Solution for the Implementation of CI/CD in Embedded Linux Development",
+    "source_arxiv_id": "2510.19240v2",
+    "id": 484
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 485
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying code changes into production after integration",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 486
+  },
+  {
+    "devops_concept": "Scalable CI/CD Pipeline",
+    "msa_concept": "Microservice Deployment",
+    "definition": "A pipeline that can scale to meet the needs of the development team and automate the build, test, and deployment of code",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 487
+  },
+  {
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Service Infrastructure",
+    "definition": "The practice of managing infrastructure through code and automating the deployment of infrastructure",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 488
+  },
+  {
+    "devops_concept": "Containerization",
+    "msa_concept": "Service Containerization",
+    "definition": "The practice of packaging an application and its dependencies into a single container",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 489
+  },
+  {
+    "devops_concept": "Version Control",
+    "msa_concept": "Service Versioning",
+    "definition": "The practice of tracking changes to code and managing different versions of code",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 490
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Testing",
+    "definition": "The practice of automating the testing of code to ensure it meets requirements",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 491
+  },
+  {
+    "devops_concept": "Digital Transformation",
+    "msa_concept": "Business Capability",
+    "definition": "The process of transforming an organization to take advantage of digital technologies",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 492
+  },
+  {
+    "devops_concept": "Legacy System Modernization",
+    "msa_concept": "Service Refactoring",
+    "definition": "The process of updating or replacing legacy systems with modern technologies",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Scalable CI/CD for Legacy Modernization: An Industrial Experience Addressing Internal Challenges Related to the 2025 Japan Cliff",
+    "source_arxiv_id": "2510.17430v1",
+    "id": 493
+  },
+  {
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Service Deployment",
+    "definition": "Infrastructure as Code is a concept where infrastructure is managed and provisioned through code rather than manual processes.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 494
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Orchestration",
+    "definition": "Continuous Deployment is a concept where code changes are automatically deployed to production after passing automated tests.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 495
+  },
+  {
+    "devops_concept": "Automated Static Analysis",
+    "msa_concept": "Service Validation",
+    "definition": "Automated Static Analysis is a concept where code is analyzed for errors and vulnerabilities without executing it.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 496
+  },
+  {
+    "devops_concept": "Policy as Code",
+    "msa_concept": "Service Governance",
+    "definition": "Policy as Code is a concept where policies are managed and enforced through code rather than manual processes.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 497
+  },
+  {
+    "devops_concept": "Multi-Agent Systems",
+    "msa_concept": "Microservice Architecture",
+    "definition": "Multi-Agent Systems is a concept where multiple agents interact and cooperate to achieve a common goal.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 498
+  },
+  {
+    "devops_concept": "Large Language Models",
+    "msa_concept": "Service Intelligence",
+    "definition": "Large Language Models is a concept where artificial intelligence models are used to generate human-like language.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 499
+  },
+  {
+    "devops_concept": "Program Synthesis",
+    "msa_concept": "Service Development",
+    "definition": "Program Synthesis is a concept where programs are automatically generated from specifications.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 500
+  },
+  {
+    "devops_concept": "Cloud Computing",
+    "msa_concept": "Service Hosting",
+    "definition": "Cloud Computing is a concept where computing resources are provided over the internet on-demand.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 501
+  },
+  {
+    "devops_concept": "Natural Language Processing",
+    "msa_concept": "Service Interaction",
+    "definition": "Natural Language Processing is a concept where human language is processed and understood by artificial intelligence models.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 502
+  },
+  {
+    "devops_concept": "Terraform",
+    "msa_concept": "Infrastructure Management",
+    "definition": "Terraform is a tool for managing and provisioning infrastructure through code.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 503
+  },
+  {
+    "devops_concept": "Open Policy Agent",
+    "msa_concept": "Policy Enforcement",
+    "definition": "Open Policy Agent is a tool for managing and enforcing policies in infrastructure and applications.",
+    "taxonomy_category": "Security",
+    "evidence_type": "empirical",
+    "source_title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+    "source_arxiv_id": "2510.03902v1",
+    "id": 504
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Integration",
+    "definition": "The practice of automatically building and testing software components on a frequent basis to ensure their correctness and compatibility.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "SoCks - Simplifying Firmware and Software Integration for Heterogeneous SoCs",
+    "source_arxiv_id": "2510.15910v1",
+    "id": 505
+  },
+  {
+    "devops_concept": "Continuous Delivery",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying software components to production after they have been built and tested to ensure rapid and reliable release of new features.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "SoCks - Simplifying Firmware and Software Integration for Heterogeneous SoCs",
+    "source_arxiv_id": "2510.15910v1",
+    "id": 506
+  },
+  {
+    "devops_concept": "Automation",
+    "msa_concept": "Automated Service Provisioning",
+    "definition": "The use of software to automate repetitive or mundane tasks, such as building, testing, and deployment of software components.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "SoCks - Simplifying Firmware and Software Integration for Heterogeneous SoCs",
+    "source_arxiv_id": "2510.15910v1",
+    "id": 507
+  },
+  {
+    "devops_concept": "Decentralized Development",
+    "msa_concept": "Decentralized Service Development",
+    "definition": "A development approach where multiple teams or individuals work independently on different components of a system, with minimal dependencies between them.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "SoCks - Simplifying Firmware and Software Integration for Heterogeneous SoCs",
+    "source_arxiv_id": "2510.15910v1",
+    "id": 508
+  },
+  {
+    "devops_concept": "Modular Design",
+    "msa_concept": "Microservices Architecture",
+    "definition": "A design approach where a system is broken down into smaller, independent components or modules that can be developed, tested, and deployed separately.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "SoCks - Simplifying Firmware and Software Integration for Heterogeneous SoCs",
+    "source_arxiv_id": "2510.15910v1",
+    "id": 509
+  },
+  {
+    "devops_concept": "Interface Standardization",
+    "msa_concept": "Service Interface Standardization",
+    "definition": "The practice of defining and implementing standardized interfaces between components or services to ensure seamless communication and integration.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "SoCks - Simplifying Firmware and Software Integration for Heterogeneous SoCs",
+    "source_arxiv_id": "2510.15910v1",
+    "id": 510
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "Continuous Deployment is a DevOps practice where code changes are automatically deployed to production after passing automated tests.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 511
+  },
+  {
+    "devops_concept": "Declarative Configuration",
+    "msa_concept": "Infrastructure as Code",
+    "definition": "Declarative Configuration is a DevOps practice where infrastructure and application configurations are defined in a descriptive model.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 512
+  },
+  {
+    "devops_concept": "GitOps",
+    "msa_concept": "Infrastructure as Code",
+    "definition": "GitOps is a DevOps practice where Git is used as the single source of truth for declarative infrastructure and application configurations.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 513
+  },
+  {
+    "devops_concept": "Reconciliation",
+    "msa_concept": "Service Orchestration",
+    "definition": "Reconciliation is a DevOps practice where the runtime state of a system is continuously synchronized with its desired state.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 514
+  },
+  {
+    "devops_concept": "Benchmarking",
+    "msa_concept": "Performance Monitoring",
+    "definition": "Benchmarking is a DevOps practice where the performance of a system is measured and compared to a standard.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 515
+  },
+  {
+    "devops_concept": "Cloud-Native Orchestration",
+    "msa_concept": "Service Orchestration",
+    "definition": "Cloud-Native Orchestration is a DevOps practice where cloud-native applications are managed and coordinated using automated tools.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 516
+  },
+  {
+    "devops_concept": "Configuration as Data",
+    "msa_concept": "Infrastructure as Code",
+    "definition": "Configuration as Data is a DevOps practice where configuration values are defined and managed as data, separate from application code.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 517
+  },
+  {
+    "devops_concept": "Intent-Based Networking",
+    "msa_concept": "Network Orchestration",
+    "definition": "Intent-Based Networking is a DevOps practice where network configurations and policies are defined and managed based on business intent.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 518
+  },
+  {
+    "devops_concept": "Automated Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "Automated Deployment is a DevOps practice where code changes are automatically deployed to production after passing automated tests.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 519
+  },
+  {
+    "devops_concept": "Version Control",
+    "msa_concept": "Source Control",
+    "definition": "Version Control is a DevOps practice where changes to code and configuration are tracked and managed using a version control system.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Performance Evaluation of Intent-Based Networking Scenarios: A GitOps and Nephio Approach",
+    "source_arxiv_id": "2509.13901v1",
+    "id": 520
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Decentralized Development",
+    "definition": "The practice of automatically integrating code changes into a single repository on a frequent basis.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 521
+  },
+  {
+    "devops_concept": "Continuous Delivery",
+    "msa_concept": "Decentralized Development",
+    "definition": "The practice of automatically delivering software changes to production on a frequent basis.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 522
+  },
+  {
+    "devops_concept": "End-to-End Testing",
+    "msa_concept": "Inter-Service Communication",
+    "definition": "The practice of testing a software system from start to finish, simulating real-user interactions.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 523
+  },
+  {
+    "devops_concept": "Static Analysis",
+    "msa_concept": "System Architecture",
+    "definition": "The practice of analyzing software code without executing it, to identify potential errors or vulnerabilities.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 524
+  },
+  {
+    "devops_concept": "Scalability",
+    "msa_concept": "Microservice Architecture",
+    "definition": "The ability of a software system to handle increased load or demand without compromising performance.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 525
+  },
+  {
+    "devops_concept": "Security Policy",
+    "msa_concept": "Cross-Cutting Concerns",
+    "definition": "A set of rules and guidelines that define how to protect a software system from potential threats.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 526
+  },
+  {
+    "devops_concept": "Centralized Governance",
+    "msa_concept": "Decentralized Development",
+    "definition": "The practice of having a single, centralized authority that oversees and manages a software system.",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 527
+  },
+  {
+    "devops_concept": "Formal Verification",
+    "msa_concept": "System Modeling",
+    "definition": "The practice of using mathematical models to prove that a software system meets its specifications.",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Vision: An Extensible Methodology for Formal Software Verification in Microservice Systems",
+    "source_arxiv_id": "2509.02860v1",
+    "id": 528
+  },
+  {
+    "devops_concept": "Log Analysis",
+    "msa_concept": "Distributed Logging",
+    "definition": "The process of collecting, processing, and analyzing log data to gain insights into system behavior and performance.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "A layered architecture for log analysis in complex IT systems",
+    "source_arxiv_id": "2509.08698v1",
+    "id": 529
+  },
+  {
+    "devops_concept": "Artificial Intelligence for IT Operations (AIOps)",
+    "msa_concept": "Service Mesh",
+    "definition": "The application of artificial intelligence and machine learning to automate and improve IT operations, including log analysis and anomaly detection.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "A layered architecture for log analysis in complex IT systems",
+    "source_arxiv_id": "2509.08698v1",
+    "id": 530
+  },
+  {
+    "devops_concept": "DevOps Teams",
+    "msa_concept": "Cross-Functional Teams",
+    "definition": "Teams responsible for the development, deployment, and operation of software systems, emphasizing collaboration and communication between development and operations staff.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "A layered architecture for log analysis in complex IT systems",
+    "source_arxiv_id": "2509.08698v1",
+    "id": 531
+  },
+  {
+    "devops_concept": "Autonomous Labeling",
+    "msa_concept": "Automated Data Processing",
+    "definition": "The use of machine learning and artificial intelligence to automatically label and categorize data, such as log data, to facilitate analysis and decision-making.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "A layered architecture for log analysis in complex IT systems",
+    "source_arxiv_id": "2509.08698v1",
+    "id": 532
+  },
+  {
+    "devops_concept": "Anomaly Detection",
+    "msa_concept": "Fault Detection",
+    "definition": "The process of identifying patterns or behaviors in data that deviate from expected or normal behavior, often indicating a fault or error in the system.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "A layered architecture for log analysis in complex IT systems",
+    "source_arxiv_id": "2509.08698v1",
+    "id": 533
+  },
+  {
+    "devops_concept": "Root Cause Analysis (RCA)",
+    "msa_concept": "Error Diagnosis",
+    "definition": "The process of identifying the underlying cause of a problem or failure in a system, often involving the analysis of log data and other system metrics.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "A layered architecture for log analysis in complex IT systems",
+    "source_arxiv_id": "2509.08698v1",
+    "id": 534
+  },
+  {
+    "devops_concept": "Three-Layered Architecture",
+    "msa_concept": "Microservice Architecture",
+    "definition": "A software architecture pattern that structures an application as a collection of small, independent services, each with its own responsibilities and interfaces.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "A layered architecture for log analysis in complex IT systems",
+    "source_arxiv_id": "2509.08698v1",
+    "id": 535
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Composition",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DTInsight: A Tool for Explicit, Interactive, and Continuous Digital Twin Reporting",
+    "source_arxiv_id": "2508.18431v1",
+    "id": 536
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying code changes into production after integration",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DTInsight: A Tool for Explicit, Interactive, and Continuous Digital Twin Reporting",
+    "source_arxiv_id": "2508.18431v1",
+    "id": 537
+  },
+  {
+    "devops_concept": "Monitoring",
+    "msa_concept": "Service Monitoring",
+    "definition": "The practice of continuously collecting and analyzing data about a system's performance and health",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "DTInsight: A Tool for Explicit, Interactive, and Continuous Digital Twin Reporting",
+    "source_arxiv_id": "2508.18431v1",
+    "id": 538
+  },
+  {
+    "devops_concept": "Observability",
+    "msa_concept": "Service Observability",
+    "definition": "The ability to measure a system's internal state and understand its behavior",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "DTInsight: A Tool for Explicit, Interactive, and Continuous Digital Twin Reporting",
+    "source_arxiv_id": "2508.18431v1",
+    "id": 539
+  },
+  {
+    "devops_concept": "Automated Reporting",
+    "msa_concept": "Service Reporting",
+    "definition": "The practice of automatically generating reports about a system's performance and health",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "DTInsight: A Tool for Explicit, Interactive, and Continuous Digital Twin Reporting",
+    "source_arxiv_id": "2508.18431v1",
+    "id": 540
+  },
+  {
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Service Pipeline",
+    "definition": "A automated workflow that integrates code changes, builds, tests, and deploys software",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DTInsight: A Tool for Explicit, Interactive, and Continuous Digital Twin Reporting",
+    "source_arxiv_id": "2508.18431v1",
+    "id": 541
+  },
+  {
+    "devops_concept": "TwinOps",
+    "msa_concept": "Digital Twin Operations",
+    "definition": "The practice of applying DevOps principles to digital twin development and operations",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "DTInsight: A Tool for Explicit, Interactive, and Continuous Digital Twin Reporting",
+    "source_arxiv_id": "2508.18431v1",
+    "id": 542
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Integration",
+    "definition": "The practice of automatically integrating code changes into a single repository frequently",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 543
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying code changes to production after integration",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 544
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Validation",
+    "definition": "The use of automated tools to validate the functionality of software components",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 545
+  },
+  {
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Service Orchestration",
+    "definition": "A automated process that integrates and deploys software components",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 546
+  },
+  {
+    "devops_concept": "Modular Configuration",
+    "msa_concept": "Microservice Configuration",
+    "definition": "The practice of breaking down a system into smaller, independent components",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 547
+  },
+  {
+    "devops_concept": "Logging and Monitoring",
+    "msa_concept": "Service Monitoring",
+    "definition": "The practice of collecting and analyzing data to understand system performance",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 548
+  },
+  {
+    "devops_concept": "Access Control",
+    "msa_concept": "Service Security",
+    "definition": "The practice of controlling access to system components",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 549
+  },
+  {
+    "devops_concept": "Real-time Status Updates",
+    "msa_concept": "Service Communication",
+    "definition": "The practice of providing immediate feedback on system performance",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "Wide Area Linear Optical Polarimeter Control Software",
+    "source_arxiv_id": "2507.15010v1",
+    "id": 550
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Microservices",
+    "definition": "Continuous deployment refers to the automated process of deploying software into production after it has been built and tested.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 551
+  },
+  {
+    "devops_concept": "DevOps",
+    "msa_concept": "Service-Oriented Architecture",
+    "definition": "DevOps is a set of practices that combines software development and operations to improve the speed, quality, and reliability of software releases.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 552
+  },
+  {
+    "devops_concept": "Deployment Automation",
+    "msa_concept": "Containerization",
+    "definition": "Deployment automation refers to the automated process of deploying software into production, often using tools like Kubernetes.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 553
+  },
+  {
+    "devops_concept": "Monitoring",
+    "msa_concept": "Observability",
+    "definition": "Monitoring refers to the process of collecting and analyzing data to understand the performance and health of a system.",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 554
+  },
+  {
+    "devops_concept": "Scalability",
+    "msa_concept": "Microservices Architecture",
+    "definition": "Scalability refers to the ability of a system to handle increased load and traffic without compromising performance.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 555
+  },
+  {
+    "devops_concept": "Cloud Computing",
+    "msa_concept": "Cloud-Native Applications",
+    "definition": "Cloud computing refers to the use of remote servers and services over the internet to store, manage, and process data.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "empirical",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 556
+  },
+  {
+    "devops_concept": "Containerization",
+    "msa_concept": "Containerized Microservices",
+    "definition": "Containerization refers to the use of containers to package and deploy applications, often using tools like Docker.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 557
+  },
+  {
+    "devops_concept": "Serverless Computing",
+    "msa_concept": "Serverless Architecture",
+    "definition": "Serverless computing refers to the use of cloud services to run applications without managing servers, often using tools like AWS Lambda.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "empirical",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 558
+  },
+  {
+    "devops_concept": "Kubernetes",
+    "msa_concept": "Orchestration",
+    "definition": "Kubernetes is a container orchestration system for automating the deployment, scaling, and management of containerized applications.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Emerging Trends in Software Architecture from the Practitioners Perspective: A Five Year Review",
+    "source_arxiv_id": "2507.14554v2",
+    "id": 559
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Microservices Orchestration",
+    "definition": "The practice of automating the build, test, and deployment of software applications",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 560
+  },
+  {
+    "devops_concept": "Containerization",
+    "msa_concept": "Service Isolation",
+    "definition": "The practice of packaging software applications and their dependencies into containers",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 561
+  },
+  {
+    "devops_concept": "Orchestration",
+    "msa_concept": "Service Coordination",
+    "definition": "The practice of automating the deployment, scaling, and management of software applications",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 562
+  },
+  {
+    "devops_concept": "Configuration Management",
+    "msa_concept": "Service Configuration",
+    "definition": "The practice of tracking and managing changes to software application configurations",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "empirical",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 563
+  },
+  {
+    "devops_concept": "Scalability",
+    "msa_concept": "Service Scalability",
+    "definition": "The ability of a software application to handle increased load and traffic",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 564
+  },
+  {
+    "devops_concept": "Security",
+    "msa_concept": "Service Security",
+    "definition": "The practice of protecting software applications from unauthorized access and malicious activity",
+    "taxonomy_category": "Security",
+    "evidence_type": "conceptual",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 565
+  },
+  {
+    "devops_concept": "Reverse Proxy",
+    "msa_concept": "API Gateway",
+    "definition": "A server that sits between a client and a server, acting as an intermediary for requests",
+    "taxonomy_category": "Security",
+    "evidence_type": "empirical",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 566
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Validation",
+    "definition": "The practice of automating the testing of software applications to ensure they meet requirements",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 567
+  },
+  {
+    "devops_concept": "Microservices Architecture",
+    "msa_concept": "Microservices Architecture",
+    "definition": "A software architecture style that structures an application as a collection of small, independent services",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+    "source_arxiv_id": "2507.17852v1",
+    "id": 568
+  },
+  {
+    "devops_concept": "DevOps Lifecycle",
+    "msa_concept": "Microservice Development Lifecycle",
+    "definition": "The DevOps lifecycle refers to the stages involved in the development, deployment, and maintenance of software applications, including planning, coding, building, testing, deployment, and monitoring.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "AI-Native Open RAN for Non-Terrestrial Networks: An Overview",
+    "source_arxiv_id": "2507.11935v3",
+    "id": 569
+  },
+  {
+    "devops_concept": "Deployment Automation",
+    "msa_concept": "Service Deployment",
+    "definition": "Deployment automation refers to the process of automating the deployment of software applications, reducing the need for manual intervention and minimizing errors.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "AI-Native Open RAN for Non-Terrestrial Networks: An Overview",
+    "source_arxiv_id": "2507.11935v3",
+    "id": 570
+  },
+  {
+    "devops_concept": "Orchestration",
+    "msa_concept": "Service Orchestration",
+    "definition": "Orchestration refers to the process of automating and coordinating the deployment, scaling, and management of software applications and services.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "AI-Native Open RAN for Non-Terrestrial Networks: An Overview",
+    "source_arxiv_id": "2507.11935v3",
+    "id": 571
+  },
+  {
+    "devops_concept": "End-to-End Orchestration",
+    "msa_concept": "End-to-End Service Orchestration",
+    "definition": "End-to-end orchestration refers to the process of automating and coordinating the deployment, scaling, and management of software applications and services across multiple domains and layers.",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "AI-Native Open RAN for Non-Terrestrial Networks: An Overview",
+    "source_arxiv_id": "2507.11935v3",
+    "id": 572
+  },
+  {
+    "devops_concept": "Virtualization",
+    "msa_concept": "Service Virtualization",
+    "definition": "Virtualization refers to the process of creating virtual instances of physical resources, such as servers, storage, and networks, to improve utilization and flexibility.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "AI-Native Open RAN for Non-Terrestrial Networks: An Overview",
+    "source_arxiv_id": "2507.11935v3",
+    "id": 573
+  },
+  {
+    "devops_concept": "Disaggregation",
+    "msa_concept": "Service Disaggregation",
+    "definition": "Disaggregation refers to the process of breaking down monolithic systems into smaller, independent components or services, to improve scalability, flexibility, and maintainability.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "AI-Native Open RAN for Non-Terrestrial Networks: An Overview",
+    "source_arxiv_id": "2507.11935v3",
+    "id": 574
+  },
+  {
+    "devops_concept": "Edge AI",
+    "msa_concept": "Edge Service Intelligence",
+    "definition": "Edge AI refers to the integration of artificial intelligence and machine learning capabilities at the edge of the network, to improve real-time processing, decision-making, and automation.",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "AI-Native Open RAN for Non-Terrestrial Networks: An Overview",
+    "source_arxiv_id": "2507.11935v3",
+    "id": 575
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically building and testing code changes as they are committed to a version control system",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Sustainable operation of research infrastructure for novel computing",
+    "source_arxiv_id": "2506.23901v2",
+    "id": 576
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automatically deploying code changes to a production environment after they have been built and tested",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Sustainable operation of research infrastructure for novel computing",
+    "source_arxiv_id": "2506.23901v2",
+    "id": 577
+  },
+  {
+    "devops_concept": "Continuous Monitoring",
+    "msa_concept": "Service Monitoring",
+    "definition": "The practice of continuously monitoring the performance and health of a system or application",
+    "taxonomy_category": "Observability",
+    "evidence_type": "empirical",
+    "source_title": "Sustainable operation of research infrastructure for novel computing",
+    "source_arxiv_id": "2506.23901v2",
+    "id": 578
+  },
+  {
+    "devops_concept": "Infrastructure as Code",
+    "msa_concept": "Service Infrastructure",
+    "definition": "The practice of managing and provisioning infrastructure through code and automation tools",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Sustainable operation of research infrastructure for novel computing",
+    "source_arxiv_id": "2506.23901v2",
+    "id": 579
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Testing",
+    "definition": "The practice of using automated tools to test the functionality and performance of a system or application",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "Sustainable operation of research infrastructure for novel computing",
+    "source_arxiv_id": "2506.23901v2",
+    "id": 580
+  },
+  {
+    "devops_concept": "CI/CD Pipelines",
+    "msa_concept": "Service Deployment",
+    "definition": "The practice of automating the build, test, and deployment of code changes through a pipeline of automated processes",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Sustainable operation of research infrastructure for novel computing",
+    "source_arxiv_id": "2506.23901v2",
+    "id": 581
+  },
+  {
+    "devops_concept": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "msa_concept": "Modular Architecture",
+    "definition": "A development practice that involves automatically building, testing, and deploying software changes",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+    "source_arxiv_id": "2506.17988v1",
+    "id": 582
+  },
+  {
+    "devops_concept": "Modular Design",
+    "msa_concept": "Microservices Architecture",
+    "definition": "A design approach that involves breaking down a system into smaller, independent modules",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+    "source_arxiv_id": "2506.17988v1",
+    "id": 583
+  },
+  {
+    "devops_concept": "Security Verification",
+    "msa_concept": "Service Isolation",
+    "definition": "A process that involves verifying the security of a system or component",
+    "taxonomy_category": "Security",
+    "evidence_type": "empirical",
+    "source_title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+    "source_arxiv_id": "2506.17988v1",
+    "id": 584
+  },
+  {
+    "devops_concept": "Automated Testing",
+    "msa_concept": "Service Composition",
+    "definition": "A practice that involves automatically testing software changes",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+    "source_arxiv_id": "2506.17988v1",
+    "id": 585
+  },
+  {
+    "devops_concept": "Configuration Management",
+    "msa_concept": "Service Configuration",
+    "definition": "A practice that involves managing the configuration of a system or component",
+    "taxonomy_category": "Configuration",
+    "evidence_type": "conceptual",
+    "source_title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+    "source_arxiv_id": "2506.17988v1",
+    "id": 586
+  },
+  {
+    "devops_concept": "Monitoring and Logging",
+    "msa_concept": "Service Monitoring",
+    "definition": "A practice that involves monitoring and logging system or component activity",
+    "taxonomy_category": "Observability",
+    "evidence_type": "conceptual",
+    "source_title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+    "source_arxiv_id": "2506.17988v1",
+    "id": 587
+  },
+  {
+    "devops_concept": "Continuous Integration",
+    "msa_concept": "Modular Architecture",
+    "definition": "The practice of automatically integrating code changes into a central repository frequently",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 588
+  },
+  {
+    "devops_concept": "Continuous Deployment",
+    "msa_concept": "Modular Architecture",
+    "definition": "The practice of automatically deploying code changes into production after they pass automated tests",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 589
+  },
+  {
+    "devops_concept": "Containerization",
+    "msa_concept": "Service Isolation",
+    "definition": "The practice of packaging an application and its dependencies into a single container",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 590
+  },
+  {
+    "devops_concept": "CI/CD Pipeline",
+    "msa_concept": "Modular Architecture",
+    "definition": "A series of automated processes that integrate code changes, build, test, and deploy software",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "empirical",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 591
+  },
+  {
+    "devops_concept": "Modular Architecture",
+    "msa_concept": "Microservices Architecture",
+    "definition": "A software architecture style that structures an application as a collection of small, independent services",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 592
+  },
+  {
+    "devops_concept": "Scalability",
+    "msa_concept": "Horizontal Scaling",
+    "definition": "The ability of a system to handle increased load by adding more resources",
+    "taxonomy_category": "Scalability",
+    "evidence_type": "conceptual",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 593
+  },
+  {
+    "devops_concept": "Agile Methodologies",
+    "msa_concept": "Iterative Development",
+    "definition": "A set of values and principles that emphasize flexibility, collaboration, and rapid delivery",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 594
+  },
+  {
+    "devops_concept": "Automation",
+    "msa_concept": "Service Automation",
+    "definition": "The use of technology to automate repetitive or mundane tasks",
+    "taxonomy_category": "Deployment Automation",
+    "evidence_type": "conceptual",
+    "source_title": "IDEIA: A Generative AI-Based System for Real-Time Editorial Ideation in Digital Journalism",
+    "source_arxiv_id": "2506.07278v1",
+    "id": 595
+  }
+]

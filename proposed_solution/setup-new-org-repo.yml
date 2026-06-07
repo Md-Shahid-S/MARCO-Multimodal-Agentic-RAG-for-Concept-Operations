@@ -1,0 +1,68 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Create & Setup Org Repo
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      username:
+        description: 'A username passed from the caller workflow'
+        default: 'john-doe'
+        required: true
+      org:
+        default: 'ci-cd-scripts'
+        required: true
+      repo-name:
+        default: 'test-1'
+        required: true
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # https://docs.github.com/en/actions/learn-github-actions/reusing-workflows
+  reusing-workflow:
+    uses: ci-cd-scripts/called-workflows/.github/workflows/create-org-repo.yml@main
+    with:
+      username: ${{ github.event.inputs.username }}
+      org: ${{ github.event.inputs.org }}
+      repo-name: ${{ github.event.inputs.repo-name }}
+    secrets:
+      caller-token: ${{ secrets.TOKEN }}
+        
+#   call-workflow-2:
+#     uses: octo-org/another-repo/.github/workflows/workflow-2.yml@v1
+  
+  # This workflow contains a single job called "build"
+  workflow_dispatch:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: GitHub Script
+        uses: actions/github-script@v5.0.0
+        with:
+          # The script to run
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: "${{ github.event.inputs.org }}",
+              repo: "called-workflows",
+              workflow_id: "create-org-repo.yml",
+              ref: "ref",
+              inputs: {
+                "username": "${{ github.event.inputs.username }}",
+                "org": "${{ github.event.inputs.org }}",
+                "repo-name": "${{ github.event.inputs.repo-name }}"
+              }
+            });
+          # The GitHub token used to create an authenticated client
+#            github-token: # optional, default is ${{ github.token }}
+          # Whether to tell the GitHub client to log details of its requests
+#            debug: # optional
+          # An optional user-agent string
+#           user-agent: # optional, default is actions/github-script
+          # A comma-separated list of API previews to accept
+#           previews: # optional
+          # Either "string" or "json" (default "json")—how the result will be encoded
+#           result-encoding: # optional, default is json

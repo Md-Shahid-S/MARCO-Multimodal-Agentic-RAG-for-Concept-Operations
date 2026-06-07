@@ -1,0 +1,39 @@
+Intha paper oda Title: "Aligning DevOps and Microservice Architecture: Empirical Mapping, Taxonomy, and RAG-Based Decision Support"
+
+Intha paper la DevOps practices-kum Microservice Architecture (MSA) principles-kum ulla correlation-a pathi deep-a analyze pannirkanga. 
+
+Section-wise Breakdown in Tanglish:
+
+1. Abstract (Summary):
+Modern software delivery-la DevOps and MSA renduமே romba important. Aana ithu renduமே eppadi onna work aaguthu nu oru clear idea illa. Intha study-la 200+ DevOps-MSA concept pairs-a 84 papers-la irunthu extract panni, oru 5-category taxonomy create pannirkanga. Ithula main-a RAG (Retrieval-Augmented Generation) framework-a use panni concept recommendations kudukuranga.
+
+2. Introduction:
+DevOps-na automation and collaboration. MSA-na monolithic system-a chinna chinna independently deployable services-a pirikirathu. Ithu renduமே eppadi onnukonnu reinforcement kudukuthu nu systematically explore panna intha research-a panni irukkanga.
+
+3. Background:
+Cloud-native systems-la Containerization, CI/CD, and IaC (Infrastructure as Code) ellam MSA lifecycle-a eppadi manage pannuthu nu background research kuduthu irukkanga. AI and LLMs eppadi intha mapping-la help pannum nu explain pannirkanga.
+
+4. Dataset Construction (Paper Selection):
+2016-la irunthu 2025 varaikum ulla 1,379 records-a filter panni, final-a 84 best papers-a choose pannirkanga. Intha papers-la irunthu concept pairs-a extract panni oru curated dataset create pannirkanga.
+
+5. Methodology (RAG Framework):
+* Extraction & Normalization: Terms-a common vocabulary-ku mathuranga.
+* RAG System: Sentence-transformer embeddings and GPT-based reasoning use panni, user oru concept query panna accurate-a recommendation tharum. 
+* Comparison: Intha system-a normal lexical search (BM25) and simple embedding-only systems oda compare panni, RAG 20% better-a work aaguthu nu prove pannirkanga.
+
+6. Taxonomy (Categories):
+Mappings-a 5 groups-a pirichirkanga:
+1. Deployment Automation & Orchestration (High evidence)
+2. Observability & Runtime Diagnostics (High evidence)
+3. Scalability & Modularity
+4. Security & Governance (Low evidence/Conceptual)
+5. Configuration & Environment Management
+
+7. Results & Discussion:
+Quantitative results-la RAG precision romba high-a iruku. Qualitative-a patha, GPT kudukura justifications ellam accurate-a evidence-a base panni iruku. Real-world case studies-la (Banking, Insurance and Software sectors) intha framework release speed-a increase panni developers satisfaction-a improve panniruku.
+
+8. Conclusion & Future Work:
+Intha study oru reusable dataset and decision support tool-a kuduthu iruku. Future-la innum neraya languages (non-English) and specific sectors (telecom, public sector) pathi analyze panna plan pannirkanga.
+
+Final Note:
+Overall, intha paper architecture (MSA) kum operations (DevOps) kum ulla gap-a AI help oda fill panna try pannuthu.

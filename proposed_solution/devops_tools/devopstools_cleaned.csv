@@ -1,0 +1,345 @@
+paper_id,paper_citation,category,subcategory,tool,usage
+1,"(Adhikari, 2024)",Security,Static Code Security Testing,SonarQube,Used to identify code quality and security issues through static code analysis integrated early in the DevSecOps pipeline.
+1,"(Adhikari, 2024)",Security,Software Composition Analysis (SCA),OWASP Dependency-Check,Analyzes project dependencies for publicly disclosed vulnerabilities in included libraries.
+1,"(Adhikari, 2024)",Security,Static Code Security Testing,Checkmarx,Commercial SAST solution providing deep code analysis and detailed vulnerability reports in CI/CD pipelines.
+1,"(Adhikari, 2024)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,DAST tool for identifying vulnerabilities in running applications; supports automation and integration with DevOps pipelines.
+1,"(Adhikari, 2024)",Security,Container Security,Clair,Static vulnerability analyzer for containers; scans container images for known vulnerabilities.
+1,"(Adhikari, 2024)",Security,Infrastructure as Code (IaC) Security,Checkov,"IaC scanner for Terraform, CloudFormation, and Kubernetes to detect misconfigurations and security policy violations."
+2,"(Akinbolaji et al., 2024)",Analytics & Monitoring,Metrics Collection and Alerting,Prometheus,Used for collecting and querying metrics data from cloud systems and services; supports alerting to detect anomalies proactively.
+2,"(Akinbolaji et al., 2024)",Analytics & Monitoring,Visualization and Dashboarding,Grafana,Visualizes metrics data from Prometheus; enables real-time dashboards for observing system performance and health.
+2,"(Akinbolaji et al., 2024)",Security,Secret Storage and Access Policies,HashiCorp Vault,Provides secure storage and management of sensitive information such as API keys and passwords in the DevOps pipeline.
+3,"(Ambade et al., 2021)",Requirement Engineering & Tracking,Safety and Liveness Validation,RV-SLC,A tool that performs regression validation of safety and liveness constraints on requirement goal models across multiple iterations of the DevOps lifecycle. Integrates with the Plan phase to monitor evolving requirements and compliance with SL-Props.
+3,"(Ambade et al., 2021)",Analytics & Monitoring,Requirement Lifecycle Dashboard,RV-SLC Dashboard,"Provides tabular and graphical views to analyze requirement changes, goal model complexity, and evolution of constraints across increments."
+4,"(Angara et al., 2020)",Collaboration & Project Management,Agile Project Management,Go/No-Go Decision Algorithm,Naive Bayes-based feasibility classifier for project decision-making before sprint execution using 21 project factors.
+4,"(Angara et al., 2020)",Data Management & Mining,Planning Poker,e-Planning Poker,"Effort estimation model using weighted participant scores based on past performance, technical knowledge, collaboration, and domain knowledge."
+4,"(Angara et al., 2020)",Analytics & Monitoring,Maturity Analysis,Project Maturity Assessment Tool,"Excel-based tool to compute sprint maturity using metrics like mean, standard deviation, and coefficient of variation across 21 project factors."
+4,"(Angara et al., 2020)",Analytics & Monitoring,Sentiment Analysis,Project Sentiment Analysis Tool,Natural Language Opinion (NLO)-based tool to analyze communication sentiment across stakeholders and plot sentiment trends over sprints.
+5,"(Antara et al., 2024)",Build & CI/CD,Workflow Orchestration,GitHub Actions,"Provides native automation for CI/CD pipelines using event-driven workflows, enabling tasks like code testing, building, and deployment on GitHub repositories."
+5,"(Antara et al., 2024)",Build & CI/CD,Workflow Orchestration,GitLab CI,"Built-in automation for CI/CD processes within GitLab, managing builds, tests, and deployments through `.gitlab-ci.yml` pipeline definitions."
+5,"(Antara et al., 2024)",Cloud Infrastructure & IaC,Infrastructure as Code,Terraform,"Enables provisioning and managing infrastructure across cloud providers through declarative configuration files, often integrated in CI/CD workflows."
+5,"(Antara et al., 2024)",Cloud Infrastructure & IaC,Infrastructure as Code,Pulumi,"Supports cloud infrastructure automation using general-purpose languages, offering flexibility in defining IaC within cloud CI/CD pipelines."
+5,"(Antara et al., 2024)",Build & CI/CD,Continuous Deployment,ArgoCD,"Declarative GitOps-based continuous delivery tool for Kubernetes, used for synchronizing application state with the Git repository."
+5,"(Antara et al., 2024)",Containerization & Orchestration,Container Orchestration,Kubernetes,"Automates container deployment, scaling, and management; integrates with tools like Argo CD and Terraform in cloud-native CI/CD workflows."
+6,"(Awad et al., 2025)",Cloud Infrastructure & IaC,Automated Tool Selection,VeriFogOps,Framework for automatically selecting DevOps tools and generating CI/CD pipelines tailored for fog system verification at deployment time.
+6,"(Awad et al., 2025)",Application Deployment & Orchestration,Pipeline Generation,GitLab,Used within VeriFogOps to integrate CI/CD workflows and facilitate automated deployment in fog computing environments.
+6,"(Awad et al., 2025)",Containerization & Orchestration,Microservice Deployment,Docker,Used by VeriFogOps for packaging and deploying fog services as containers across distributed infrastructure.
+6,"(Awad et al., 2025)",Application Deployment & Orchestration,Fog Infrastructure Management,Kubernetes,Enables orchestration and scaling of containerized fog services generated by VeriFogOps pipelines.
+7,"(Barros et al., 2020)",Data Management & Mining,DevOps Repository Mining,gthbmining.rc,"A custom-built Python tool for mining public GitHub repositories to predict release candidates based on feature-commit relationships, contributor activity, and commit timing patterns."
+7,"(Barros et al., 2020)",AI & Machine Learning,Release Prediction,XGBoost,Used within the gthbmining.rc pipeline to train predictive models for determining candidate releases based on extracted repository features and commit metadata.
+8,"(Begoug et al., 2024)",Cloud Infrastructure & IaC,Quality Assessment,TerraMetrics,"An open-source tool that statically analyzes Terraform configuration files to extract quality metrics such as size, modularity, complexity, and consistency."
+8,"(Begoug et al., 2024)",Cloud Infrastructure & IaC,IaC Best Practices,TerraMetrics,Supports DevOps teams by offering feedback on IaC quality and recommending improvements to meet maintainability and readability standards in Terraform code.
+8,"(Begoug et al., 2024)",Cloud Infrastructure & IaC,Automation Support,TerraMetrics,Facilitates integration into CI/CD pipelines to ensure automated IaC code quality validation before deployment.
+9,"(Bento et al., 2023)",Collaboration & Project Management,Agile/Scrum Management,Azure DevOps,"Used in educational environments for managing student projects, Azure DevOps supports Scrum-based workflows, backlog tracking, sprint planning, and team activity monitoring. It was preferred over Jira due to simplicity and free access for small teams, enabling version control integration, work item tracking, dashboards, and collaboration among students and instructors."
+10,"(Bernardino et al., 2024)",Security,Security Issue Management,Bulk Issue Creator (BIC),"Automates the process of creating JIRA issues based on the results of the OWASP-ASVS checklist, enabling continuous security validation in DevSecOps pipelines."
+10,"(Bernardino et al., 2024)",Security,Checklist-Based Verification,OWASP-ASVS,A security verification standard used as a checklist for manual security validation of applications integrated with automated tooling like BIC.
+10,"(Bernardino et al., 2024)",Cloud Infrastructure & IaC,Version Monitoring,Version Checker,"Monitors deployed services to ensure they are up-to-date with the latest versions, reducing vulnerability risks in internal infrastructure."
+10,"(Bernardino et al., 2024)",Cloud Security,Storage Monitoring,Cloud Cleaner,"Scans cloud environments for unused and potentially insecure shared folders, reporting misconfigurations to improve data confidentiality and integrity."
+10,"(Bernardino et al., 2024)",Collaboration & Project Management,Issue Tracking,JIRA,Used in conjunction with BIC for tracking security vulnerabilities as issues within DevSecOps workflows.
+11,"(Cankar et al., 2023)",Code Quality & Analysis,Automated Testing,Veracode,Commercial SAST and DAST tool used to perform code scanning during verification; integrated into CI/CD pipelines for proactive detection of vulnerabilities.
+11,"(Cankar et al., 2023)",Security,Machine Learning-Based Anomaly Detection,Isolation Forest,"Anomaly detection algorithm used for identifying abnormal behavior in logs and metrics, enhancing security monitoring capabilities in DevSecOps environments."
+11,"(Cankar et al., 2023)",Security,Machine Learning-Based Anomaly Detection,One-Class SVM,Machine learning model employed to detect security-related anomalies from monitoring data during runtime in DevSecOps practices.
+11,"(Cankar et al., 2023)",Security,Log Analysis,ELK Stack,"Used to collect, analyze, and visualize logs in real time for security and operational monitoring; supports anomaly and threat detection workflows."
+12,"(Carrillo-de-Gea et al., 2024)",Requirement Engineering & Tracking,Requirement Modeling,Enterprise Architect,"A UML-based modeling tool that supports use case diagrams, requirement traceability, and project management features within software development lifecycles."
+12,"(Carrillo-de-Gea et al., 2024)",Requirement Engineering & Tracking,Requirement Analysis,Jama Connect,"Manages requirements, test cases, and risk analysis. Facilitates collaboration and traceability throughout the product lifecycle."
+12,"(Carrillo-de-Gea et al., 2024)",Requirement Engineering & Tracking,Requirement Management,IBM Rational DOORS,"Captures, tracks, analyzes, and manages requirement changes to ensure traceability and compliance in large systems development."
+12,"(Carrillo-de-Gea et al., 2024)",Requirement Engineering & Tracking,Collaborative Engineering,ReqView,"Lightweight tool for writing, structuring, and reviewing software requirements. Enables linking of requirements to risks, tests, and source code."
+13,"(Dachepally, 2025)",Security,Static Code Security Testing,SonarQube,Analyzes source code before compilation to identify vulnerabilities early in development.
+13,"(Dachepally, 2025)",Security,Static Code Security Testing,Checkmarx,Performs static code analysis to find security flaws during development.
+13,"(Dachepally, 2025)",Security,Static Code Security Testing,Fortify,Used for static security analysis across software projects to detect vulnerabilities pre-deployment.
+13,"(Dachepally, 2025)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,Scans running applications to detect vulnerabilities such as SQL injection and XSS.
+13,"(Dachepally, 2025)",Security,Dynamic Application Security Testing (DAST),Burp Suite,Intercepts and tests live HTTP traffic to identify security weaknesses.
+13,"(Dachepally, 2025)",Security,Dynamic Application Security Testing (DAST),AppScan,Performs dynamic analysis on web applications to discover runtime vulnerabilities.
+13,"(Dachepally, 2025)",Configuration & Dependency Management,Software Composition Analysis (SCA),WhiteSource,Scans open-source dependencies for known security vulnerabilities.
+13,"(Dachepally, 2025)",Configuration & Dependency Management,Software Composition Analysis (SCA),Snyk,Finds and fixes vulnerabilities in open-source dependencies.
+13,"(Dachepally, 2025)",Configuration & Dependency Management,Software Composition Analysis (SCA),Black Duck,"Analyzes third-party components for security, license, and operational risks."
+13,"(Dachepally, 2025)",Cloud Infrastructure & IaC,Infrastructure as Code (IaC) Scanning,Checkov,Scans IaC templates for security misconfigurations before infrastructure provisioning.
+13,"(Dachepally, 2025)",Cloud Infrastructure & IaC,Infrastructure as Code (IaC) Scanning,KICS,"Identifies IaC misconfigurations in tools like Terraform, Kubernetes."
+13,"(Dachepally, 2025)",Cloud Infrastructure & IaC,Infrastructure as Code (IaC) Scanning,tfsec,Security scanner for Terraform code to catch vulnerabilities pre-deployment.
+14,"(Duclervil and Zunnurhain, 2019)",Security,Security Modeling,Custom DevSecOps Web Tool,"An academic prototype that allows users to define security plans, assign roles, conduct tests, and model threats; built to evaluate DevSecOps practices in web-based project management."
+14,"(Duclervil and Zunnurhain, 2019)",Web Frameworks,Frontend Development,"HTML5, CSS, JavaScript",Used to build the user interface for a DevSecOps-based project management tool supporting visualization and interaction.
+14,"(Duclervil and Zunnurhain, 2019)",Networking & Automation,Server-side Scripting,PHP,"Used to handle form submissions, server-side logic, and database interaction for the DevSecOps web tool."
+14,"(Duclervil and Zunnurhain, 2019)",Collaboration & Project Management,Task Scheduling and Tracking,Google Calendar API,Embedded in the project management system to enable task scheduling and event tracking; supports time management in DevSecOps workflows.
+15,"(Faqih et al., 2024)",Build & CI/CD,Workflow Automation,GitHub Actions,"Native CI/CD automation service from GitHub enabling developers to define workflows that automatically build, test, and deploy code."
+15,"(Faqih et al., 2024)",Build & CI/CD,Testing,pytest,Python testing framework frequently used in GitHub Actions workflows for unit and integration tests.
+15,"(Faqih et al., 2024)",Build & CI/CD,Build Tools,Maven,"Java-based build automation tool commonly used for compiling, testing, and packaging projects in GitHub Actions workflows."
+15,"(Faqih et al., 2024)",Build & CI/CD,Build Tools,Gradle,Flexible build automation tool for Java and Android projects integrated with GitHub Actions for compiling and testing code.
+15,"(Faqih et al., 2024)",Containerization & Orchestration,Container Build & Deployment,Docker,Used in GitHub Actions workflows to build and deploy containerized applications with consistent runtime environments.
+15,"(Faqih et al., 2024)",Code Quality & Analysis,Linting and Formatting,ESLint,Static code analysis tool for JavaScript used in GitHub Actions to enforce code quality and styling standards.
+15,"(Faqih et al., 2024)",Security,Secrets Management,GitHub Secrets,Secure storage for credentials and environment variables used within GitHub Actions to protect sensitive data during CI/CD operations.
+16,"(Giamattei et al., 2024)",Analytics & Monitoring,Logging and Metrics,Prometheus,Collects time-series metrics and enables alerting for infrastructure and services in DevOps and microservices.
+16,"(Giamattei et al., 2024)",Analytics & Monitoring,Visualization,Grafana,Used for real-time visualization of metrics data from Prometheus and other data sources in microservices monitoring.
+16,"(Giamattei et al., 2024)",Analytics & Monitoring,Logging,"ELK Stack (Elasticsearch, Logstash, Kibana)","Facilitates centralized log management, analysis, and dashboarding for microservices-based applications."
+16,"(Giamattei et al., 2024)",Analytics & Monitoring,Distributed Tracing,Jaeger,Provides distributed transaction monitoring and root cause analysis in microservices.
+17,"(Gowda et al., 2024)",Build & CI/CD,Pipeline Automation,Jenkins,"Popular open-source automation server used for building, testing, and deploying applications with customizable pipelines."
+17,"(Gowda et al., 2024)",Build & CI/CD,Pipeline Automation,GitLab CI/CD,"Integrated CI/CD pipeline service in GitLab, facilitating code versioning, testing, and deployment within a unified interface."
+17,"(Gowda et al., 2024)",Containerization & Orchestration,Container Build & Orchestration,Docker,Enables containerized application builds for consistent runtime environments across stages of the CI/CD pipeline.
+17,"(Gowda et al., 2024)",Containerization & Orchestration,Container Orchestration,Kubernetes,"Automates the deployment, scaling, and management of containerized applications in production environments."
+17,"(Gowda et al., 2024)",Configuration & Dependency Management,Infrastructure Automation,Ansible,Used to automate infrastructure provisioning and software deployment tasks in a reproducible and scalable way.
+17,"(Gowda et al., 2024)",Analytics & Monitoring,Log Aggregation and Visualization,"ELK Stack (Elasticsearch, Logstash, Kibana)","A suite of tools for aggregating, analyzing, and visualizing log data, commonly used in post-deployment monitoring."
+17,"(Gowda et al., 2024)",Source Code & Version Control,Source Code Management,Git,Distributed version control system used for source code management and integration with CI/CD tools.
+18,"(Ho-Dac and Vo, 2024)",Build & CI/CD,Continuous Integration and Deployment,Jenkins,An open-source automation server used to implement CI/CD pipelines. Jenkins integrates with various tools to build and deploy software efficiently.
+18,"(Ho-Dac and Vo, 2024)",Security,Static Code Security Testing,Security Code Scan,A static code analysis tool that scans .NET applications for security vulnerabilities and integrates easily into CI/CD pipelines.
+18,"(Ho-Dac and Vo, 2024)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,An open-source DAST tool that simulates attacks on web applications during runtime to detect vulnerabilities such as XSS and SQL injection.
+18,"(Ho-Dac and Vo, 2024)",Code Quality & Analysis,Source Code Quality Analysis,SonarQube,"Analyzes code quality, detects bugs, and provides metrics. It supports integration with CI servers and IDEs for continuous code inspection."
+18,"(Ho-Dac and Vo, 2024)",Configuration & Dependency Management,Vulnerability Scanning,OWASP Dependency Check,Scans project dependencies for known vulnerabilities in third-party libraries and reports CVEs using NVD and other public sources.
+18,"(Ho-Dac and Vo, 2024)",Analytics & Monitoring,Pipeline Monitoring,Prometheus,An open-source monitoring toolkit that collects metrics from configured targets and visualizes CI/CD build and security testing performance.
+19,"(Kersten, 2018)",Source Code & Version Control,Distributed Source Control,Git,Widely adopted distributed version control system that replaced heavyweight tools like Rational ClearCase; highlighted as central to bottom-up DevOps tool democratization.
+19,"(Kersten, 2018)",DevOps Platforms & Tools,Integrated Software Lifecycle,Rational ClearCase,Previously dominant version control tool in enterprise IT; example of heavyweight top-down tools displaced by agile and DevOps movements.
+19,"(Kersten, 2018)",Collaboration & Project Management,Enterprise Agile Planning,Jira,Used in Java teams for agile backlog tracking and planning; contrasted with Azure DevOps (VSTS) in Microsoft-centric ecosystems.
+19,"(Kersten, 2018)",Collaboration & Project Management,Microsoft Ecosystem Planning,Azure DevOps (VSTS),"Preferred by .NET and Azure-based teams for managing requirements, planning, and integration in enterprise environments."
+19,"(Kersten, 2018)",Requirement Engineering & Tracking,Lightweight Tracking,GitHub Issues,Mentioned as a lightweight issue tracking tool suitable for early-stage or experimental products in transformation zones.
+19,"(Kersten, 2018)",Collaboration & Project Management,Product-Oriented Value Stream Management,Product Management Tools,Described as an emerging category enabling long-term product-focused value streams as opposed to project-based lifecycles.
+20,"(Kolli et al., 2023)",Cloud Infrastructure & IaC,Provisioning,Terraform,Used to provision cloud resources with declarative configuration; supports reproducibility in DevOps environments.
+20,"(Kolli et al., 2023)",Configuration & Dependency Management,Deployment Automation,Ansible,Automates software configuration and deployment using YAML-based playbooks.
+20,"(Kolli et al., 2023)",Containerization & Orchestration,Container Management,Docker,Provides lightweight containerization for application deployment and isolation.
+20,"(Kolli et al., 2023)",Containerization & Orchestration,Container Orchestration,Kubernetes,"Manages deployment, scaling, and operations of containerized applications across clusters."
+21,"(Lazarus et al., 2024)",DevOps Platforms & Tools,Process Assessment and Collaboration,DSO-PACT,"Web-based tool for integrating Reliability and Maintainability (R&M) into DevSecOps by enabling lifecycle-wide collaboration, readiness tracking, and dashboard-based phase monitoring."
+21,"(Lazarus et al., 2024)",Collaboration & Project Management,Activity Tracking,DSO-PACT,"Supports planning, assigning, and monitoring tasks across DevSecOps phases with configurable thresholds, filters, and discipline-based tags."
+21,"(Lazarus et al., 2024)",Testing & Quality Assurance,Digital Threading and Metrics,DSO-PACT,"Provides digital threading across DevSecOps phases with readiness metrics, supporting both self-assessment and test-based validations using R&M standards."
+22,"(Li and Shih, 2021)",Build & CI/CD,Pipeline Automation,Custom Open-Source Integrating Platform,"A one-key integration platform that connects various open-source tools to automate pipelines, including code scanning, building, functional testing, black-box and white-box testing, enhancing efficiency and interoperability."
+22,"(Li and Shih, 2021)",Containerization & Orchestration,Multi-task Execution,Rancher,"Used to support multi-task execution and interconnection module compilation, enhancing scalability and reducing test time from 7 to 1 day."
+22,"(Li and Shih, 2021)",Collaboration & Project Management,Admin Interface Extension,Redmine + Kanban Module,"Extended Redmine with Kanban-style UI for filtering issues by version or member, allowing team collaboration and issue tracking."
+22,"(Li and Shih, 2021)",Identity and Access Management,Single Sign-On,Custom Single Sign-In Module,"Provides unified authentication across tools, enabling seamless sign-in with a single key, reducing administrative overhead and enhancing collaboration."
+23,"(Luki et al., 2025)",Data Management & Mining,Web Scraping,BeautifulSoup,Used for parsing and cleaning HTML content during news scraping.
+23,"(Luki et al., 2025)",Data Management & Mining,Web Scraping,Scrapy,Suggested as an alternative tool for web scraping tasks.
+23,"(Luki et al., 2025)",Data Management & Mining,Data Manipulation,Polars,Used for efficient data preprocessing and handling large datasets.
+23,"(Luki et al., 2025)",Data Management & Mining,Data Manipulation,Pandas,Suggested for traditional data manipulation and cleaning.
+23,"(Luki et al., 2025)",Data Management & Mining,Data Annotation,Label Studio,Suggested for labeling training data for supervised learning.
+23,"(Luki et al., 2025)",Data Management & Mining,Data Versioning,Data Version Control,Recommended to manage dataset versions and ensure reproducibility.
+23,"(Luki et al., 2025)",AI & Machine Learning,Model Training,PyTorch,Used for building and training RNN and LSTM models for text classification.
+23,"(Luki et al., 2025)",AI & Machine Learning,Transformer Models,Hugging Face Transformers,Used for implementing transformer models like ELECTRA and DistilBERT.
+23,"(Luki et al., 2025)",AI & Machine Learning,Preprocessing,TensorFlow,Used for tokenization and data preparation.
+23,"(Luki et al., 2025)",AI & Machine Learning,Experiment Tracking,MLflow,"Used for tracking experiments, logging hyperparameters and results."
+23,"(Luki et al., 2025)",AI & Machine Learning,Hyperparameter Optimization,Optuna,Suggested for automated tuning of model hyperparameters.
+23,"(Luki et al., 2025)",AI & Machine Learning,Hyperparameter Optimization,Ray Tune,Suggested for scalable hyperparameter tuning.
+23,"(Luki et al., 2025)",AI & Machine Learning,Environment,Google Colab,Used as the cloud-based training environment with GPU/TPU acceleration.
+23,"(Luki et al., 2025)",AI & Machine Learning,Environment,Jupyter Notebook,Suggested for interactive experimentation and prototyping.
+23,"(Luki et al., 2025)",AI & Machine Learning,Visualization,Matplotlib,Used for plotting evaluation metrics and visual analysis.
+23,"(Luki et al., 2025)",AI & Machine Learning,Containerization,Docker,Used to containerize the trained model for deployment.
+23,"(Luki et al., 2025)",AI & Machine Learning,Serving API,FastAPI,Used to expose the trained model as a REST API.
+23,"(Luki et al., 2025)",AI & Machine Learning,ASGI Server,Uvicorn,Used to serve the FastAPI app for model inference.
+23,"(Luki et al., 2025)",AI & Machine Learning,Model Export,ONNX,Used to export trained models in an interoperable format.
+23,"(Luki et al., 2025)",Workflow Orchestration,Task Scheduling,Airflow,Used to schedule scraping and classification pipelines.
+23,"(Luki et al., 2025)",Analytics & Monitoring,Database,PostgreSQL,Used to store and retrieve classification results.
+23,"(Luki et al., 2025)",Analytics & Monitoring,Metrics Collection,Prometheus,Suggested for collecting runtime metrics.
+23,"(Luki et al., 2025)",Analytics & Monitoring,Visualization,Grafana,Suggested for visualizing real-time monitoring metrics.
+23,"(Luki et al., 2025)",Analytics & Monitoring,Data and Model Monitoring,WhyLabs,Suggested for monitoring model performance and data drift.
+24,"(Majumder, 2024)",Testing & Quality Assurance,Test Automation and Parallel Execution,Docker,Enables isolated and parallel execution of test environments by containerizing test infrastructure for CI/CD workflows.
+24,"(Majumder, 2024)",Build & CI/CD,Pipeline Automation,GitHub Actions,Facilitates automated triggering and execution of testing workflows integrated with Docker for parallel test execution.
+25,"(Makani and Jangampeta, 2021)",Security,Static Code Security Testing,SonarQube,Detects code-level vulnerabilities early via static analysis and integrates with CI/CD for automated feedback.
+25,"(Makani and Jangampeta, 2021)",Security,Container Security,Aqua Security,"Performs vulnerability scanning, compliance checks, and runtime protection in containerized environments."
+25,"(Makani and Jangampeta, 2021)",Security,Dependency and Container Scanning,Snyk,Identifies and automatically fixes vulnerabilities in open-source dependencies and container images.
+25,"(Makani and Jangampeta, 2021)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,Simulates real-world attacks on running applications to uncover runtime vulnerabilities.
+25,"(Makani and Jangampeta, 2021)",Security,Secrets Vaulting and Access Control,HashiCorp Vault,Manages access to secrets like API keys and credentials with fine-grained control and secure storage.
+26,"(Miñón et al., 2022)",AI & Machine Learning,Infrastructure Automation,Pangea,"Automatically generates infrastructure templates for edge, fog, and cloud layers. Simplifies deployment and configuration of analytic pipelines using declarative models."
+26,"(Miñón et al., 2022)",AI & Machine Learning,Pipeline Deployment,Pangea,"Supports end-to-end deployment of machine learning pipelines across distributed environments. Handles data ingestion, preprocessing, model training, and deployment in DevOps/MLOps workflows."
+26,"(Miñón et al., 2022)",AI & Machine Learning,Environment Configuration,Pangea,"Generates infrastructure-as-code scripts to configure environments for ML applications without manual intervention, supporting repeatable and scalable operations."
+26,"(Miñón et al., 2022)",AI & Machine Learning,Cross-Layer Orchestration,Pangea,"Facilitates orchestration of ML services across edge, fog, and cloud layers, enabling efficient resource utilization and adaptive deployment strategies in DevOps contexts."
+27,"(Mishra and Sharma, 2025)",Code Quality & Analysis,Repository Mining,V-Git-Lab,Python-Flask based tool to generate software defect prediction datasets from GitHub repositories using metrics.
+27,"(Mishra and Sharma, 2025)",Code Quality & Analysis,Public Repositories,GitHub,Used to crawl and extract code metrics for building defect prediction datasets.
+27,"(Mishra and Sharma, 2025)",Code Quality & Analysis,Machine Learning Models,MLP,Multi-Layer Perceptron model used in predicting software defects from extracted GitHub data.
+27,"(Mishra and Sharma, 2025)",Code Quality & Analysis,Deep Learning Models,DNN,Deep Neural Network used to enhance defect prediction in DevOps pipeline.
+28,"(Narang and Mittal, 2022)",Build & CI/CD,CI Server,Jenkins,"Popular open-source automation server with a large plugin ecosystem, used to build and integrate code changes continuously."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,CI Server,TeamCity,Commercial CI server known for ease of use and strong IDE integration; supports on-premises hosting.
+28,"(Narang and Mittal, 2022)",Build & CI/CD,CI Server,Buildbot,"Open-source framework for automating software build, test, and release processes; highly customizable."
+28,"(Narang and Mittal, 2022)",Testing & Quality Assurance,Test Automation,Selenium,Open-source tool for automating web browsers; supports multiple programming languages and platforms.
+28,"(Narang and Mittal, 2022)",Testing & Quality Assurance,Performance Testing,JMeter,Open-source tool designed for load testing and measuring performance of web applications.
+28,"(Narang and Mittal, 2022)",Testing & Quality Assurance,Functional Testing,TestComplete,"Commercial automated UI testing tool for desktop, web, and mobile applications; supports multiple scripting languages."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,CI/CD Platform,GitLab,"Web-based DevOps lifecycle tool providing Git repository management, CI/CD pipelines, and monitoring capabilities."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,CI/CD Platform,GitHub Actions,"Automation platform integrated into GitHub repositories, enabling custom CI/CD workflows."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,CI/CD Platform,Azure DevOps,"Cloud-based service providing version control, build automation, release pipelines, and project management."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Configuration Management,Ansible,"Open-source automation tool for configuration management, application deployment, and orchestration."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Configuration Management,Puppet,Configuration management tool for automating infrastructure provisioning and management.
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Configuration Management,Chef,Automation platform for configuring and managing infrastructure using code.
+28,"(Narang and Mittal, 2022)",Continuous Monitoring,Monitoring & Alerting,Nagios,"Open-source monitoring tool for infrastructure, network, and applications; provides alerting features."
+28,"(Narang and Mittal, 2022)",Continuous Monitoring,Monitoring & Alerting,Sensu,Monitoring solution for dynamic environments; integrates with various alerting and incident response tools.
+28,"(Narang and Mittal, 2022)",Continuous Monitoring,Log Management & Analysis,Splunk,"Commercial platform for searching, monitoring, and analyzing machine-generated big data."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Continuous Integration and Deployment,Jenkins,"Automates build, testing, and deployment in a hybrid DevOps model; used as the backbone of pipeline execution integrated with multiple plugins."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Testing and Build Reporting,JUnit Plugin,Jenkins plugin used to generate and display test reports after build execution in the hybrid model pipeline.
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Code Quality Assurance,Cobertura Plugin,"Plugin used in Jenkins to assess code coverage during pipeline execution, ensuring sufficient testing depth."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Static Code Analysis,Checkstyle Plugin,Analyzes source code style and reports warnings; integrated into Jenkins for improving code quality.
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Post-Build Actions,Email Extension Plugin,Used in Jenkins to send email notifications regarding the build results to the development team.
+28,"(Narang and Mittal, 2022)",Build & CI/CD,CI Pipeline Orchestration,Jenkins,"Used to orchestrate automated CI/CD pipelines for building, testing, and deploying applications; integrated with Git, Maven, and Selenium."
+28,"(Narang and Mittal, 2022)",Source Code & Version Control,Version Control,Git,"Facilitates distributed version control, collaboration, and change tracking across multiple contributors."
+28,"(Narang and Mittal, 2022)",Build & CI/CD,Project Build Tool,Maven,"Handles project builds, dependency management, and documentation generation in Java-based projects."
+28,"(Narang and Mittal, 2022)",Testing & Quality Assurance,Automated Testing,Selenium,"Used for automated testing of web applications, ensuring functionality across browsers and platforms."
+28,"(Narang and Mittal, 2022)",Analytics & Monitoring,Application Monitoring,New Relic,"Tracks application performance, response time, and user interactions to identify bottlenecks and issues."
+28,"(Narang and Mittal, 2022)",Analytics & Monitoring,Log Management,Splunk,Analyzes log data from various environments to deliver real-time insights and troubleshooting support.
+29,"(Palihawadana et al., 2017)",Requirement Engineering & Tracking,End-to-End Artifact Tracking,SAT Analyzer,"Supports traceability across DevOps stages including requirement, design, code, test, configuration, and deployment. Provides dashboards, visualizations, and semi-automated trace link generation."
+29,"(Palihawadana et al., 2017)",Requirement Engineering & Tracking,CI Integration,SAT Analyzer,Integrates with Jenkins to generate trace links for build jobs and test executions as part of DevOps pipelines.
+29,"(Palihawadana et al., 2017)",Requirement Engineering & Tracking,Visualization and Graph Analysis,SAT Analyzer,Uses Neo4j and Gephi to provide graph-based visualization of traceability links between software artifacts.
+29,"(Pastrana Pardo et al., 2021)",Build & CI/CD,Deployment Automation,Spinnaker,Multi-cloud continuous delivery platform used to automate software deployment and manage release pipelines.
+29,"(Pastrana Pardo et al., 2021)",Analytics & Monitoring,Metrics Collection,Prometheus,Monitoring system and time series database used for collecting metrics and triggering alerts.
+29,"(Pastrana Pardo et al., 2021)",Analytics & Monitoring,Tracing and Visualization,Grafana,Visualization tool used to monitor application performance by displaying time-series data from Prometheus and other sources.
+29,"(Pastrana Pardo et al., 2021)",Application Deployment & Orchestration,Container Orchestration,Kubernetes,Manages containerized application deployment and scaling across clusters.
+30,"(Patchamatla and Owolabi, 2025)",Machine Learning Deployment,CI/CD Tools,Kubeflow Pipelines,Supports building and deploying ML workflows using Kubernetes; includes versioning and reproducibility for ML tasks.
+30,"(Patchamatla and Owolabi, 2025)",Machine Learning Deployment,CI/CD Tools,MLflow,"Open-source platform for managing the ML lifecycle, including experimentation, reproducibility, and deployment pipelines."
+30,"(Patchamatla and Owolabi, 2025)",Machine Learning Deployment,CI/CD Tools,TensorFlow Extended (TFX),"Production-ready ML pipeline framework supporting model validation, training, and serving using TensorFlow ecosystem."
+30,"(Patchamatla and Owolabi, 2025)",Build & CI/CD,Automation Pipelines,Jenkins,Widely-used automation server for integrating and deploying ML workflows via plugins and scripted pipelines.
+30,"(Patchamatla and Owolabi, 2025)",Containerization & Orchestration,Workflow Management,Argo Workflows,"Kubernetes-native engine for running complex ML workflows as DAGs, supporting scalable deployment and automation."
+31,"(Patchamatla, 2024)",AI & Machine Learning,Hyperparameter Tuning,Optuna,Used to optimize hyperparameters during model training with integration into CI/CD pipelines for continuous experimentation.
+31,"(Patchamatla, 2024)",Build & CI/CD,Pipeline Automation,GitHub Actions,Automates hyperparameter tuning workflows by orchestrating training jobs with tools like Optuna.
+31,"(Patchamatla, 2024)",Containerization & Orchestration,Isolated Execution,Docker,Ensures consistent environment setup for ML training and tuning in CI/CD workflows.
+32,"(Petrovi et al., 2022)",Cloud Infrastructure & IaC,Code Quality & Security Inspection,Checkov,"Static code analysis for IaC including Terraform, CloudFormation, Kubernetes, Serverless, ARM templates."
+32,"(Petrovi et al., 2022)",Cloud Infrastructure & IaC,Code Linting,Super-Linter,Combines various linters in GitHub workflows to check multiple languages and formats.
+32,"(Petrovi et al., 2022)",Cloud Infrastructure & IaC,Multi-language Linting,Mega-Linter,Analyzes quality and consistency for 47+ languages and 22+ formats with auto-fixes and reporting.
+32,"(Petrovi et al., 2022)",Security,Dependency Vulnerability Scanning,Snyk,"Finds and fixes vulnerabilities in software dependencies from ecosystems like npm, Maven, PyPI."
+32,"(Petrovi et al., 2022)",Cloud Infrastructure & IaC,Security Checking for Terraform,tfsec,Performs static analysis of Terraform code to detect potential security issues.
+32,"(Petrovi et al., 2022)",Cloud Infrastructure & IaC,Security Checking for Terraform,terrascan,Scans Terraform code to ensure compliance with security best practices.
+32,"(Petrovi et al., 2022)",Cloud Infrastructure & IaC,Security Checking for Ansible,Steampunk Spotter,Scans Ansible content for quality and security vulnerabilities.
+32,"(Petrovi et al., 2022)",DevOps Platforms & Tools,Secrets Detection,git-secrets,Prevents committing passwords and other sensitive information to Git.
+32,"(Petrovi et al., 2022)",DevOps Platforms & Tools,Secrets Detection,git-leaks,"Scans repositories for secrets like passwords, API keys, and credentials."
+32,"(Petrovi et al., 2022)",DevOps Platforms & Tools,Code Statistics,cloc,Counts lines of code and distinguishes between different file types in IaC archives.
+33,"(Poonam and Mittal, 2019)",Collaboration & Project Management,Agile Planning and Workflow,JIRA,"Selected as the best tool for project management automation based on weighted evaluation criteria. Supports customizable workflows, issue tracking, agile boards, and detailed progress tracking."
+33,"(Poonam and Mittal, 2019)",Collaboration & Project Management,Lightweight Task Boards,Trello,Evaluated for project planning and task management; supports simple kanban-style boards and prioritization.
+33,"(Poonam and Mittal, 2019)",Collaboration & Project Management,Lean Portfolio Management,LeanKit,Used for visualizing work across teams; assessed for workload distribution and managing dependencies.
+33,"(Poonam and Mittal, 2019)",Collaboration & Project Management,Enterprise Planning,AgileCraft,Analyzed for its support in strategic planning and agile execution at scale; integrates with lower-level agile tools.
+33,"(Poonam and Mittal, 2019)",Build & CI/CD,Automation Server,Jenkins,"Supports CI/CD pipelines for building, testing, and deploying applications; widely used in DevOps automation setups."
+33,"(Poonam and Mittal, 2019)",Build & CI/CD,Build and Deployment,Bamboo,Build server for continuous integration; integrates with Atlassian tools for DevOps automation.
+33,"(Poonam and Mittal, 2019)",Testing & Quality Assurance,Functional Testing,Selenium,Used for browser-based automated functional testing; suitable for DevOps pipelines.
+33,"(Poonam and Mittal, 2019)",Testing & Quality Assurance,Performance Testing,JMeter,Open-source tool for load testing and measuring application performance under stress.
+33,"(Poonam and Mittal, 2019)",Collaboration & Project Management,Collaboration Wiki,Confluence,Used for collaborative documentation and linking technical and project management information.
+33,"(Poonam and Mittal, 2019)",Source Code & Version Control,Source Control,Bitbucket,Provides Git-based source code management; integrates with Atlassian DevOps tools.
+33,"(Poonam and Mittal, 2019)",Source Code & Version Control,Peer Review Tools,Crucible,Supports collaborative code reviews in an enterprise DevOps environment.
+33,"(Poonam and Mittal, 2019)",Analytics & Monitoring,Log and Event Analysis,Splunk,"Used for operational intelligence, log aggregation, and security event monitoring."
+33,"(Poonam and Mittal, 2019)",Requirement Engineering & Tracking,Knowledge Base,Slite,Assessed as a modern documentation and requirement capture tool in DevOps settings.
+33,"(Poonam and Mittal, 2019)",Requirement Engineering & Tracking,Team Knowledge Sharing,Notion,Utilized for requirement documentation and lightweight project collaboration.
+33,"(Poonam and Mittal, 2019)",Requirement Engineering & Tracking,Wiki System,MediaWiki,Explored as an open-source wiki for managing requirements and technical documentation.
+33,"(Poonam and Mittal, 2019)",Requirement Engineering & Tracking,Documentation Platform,BookStack,Tool for structuring and presenting requirements in a hierarchical documentation format.
+33,"(Poonam and Mittal, 2019)",Source Code & Version Control,Git Hosting,GitLab,Self-hosted Git repository management solution with integrated CI/CD and DevOps features.
+33,"(Poonam and Mittal, 2019)",Source Code & Version Control,Distributed VCS,GitHub,Popular code repository and collaboration platform widely used in DevOps pipelines.
+33,"(Poonam and Mittal, 2019)",Source Code & Version Control,Code Hosting,Launchpad,Open-source platform for hosting and managing software projects and versioned code.
+33,"(Poonam and Mittal, 2019)",Build & CI/CD,Continuous Integration,TeamCity,Build management and CI server offering test reporting and artifact archiving.
+33,"(Poonam and Mittal, 2019)",Security,DAST,ZAP,Used for dynamic security testing of web applications in the DevSecOps pipeline.
+33,"(Poonam and Mittal, 2019)",Testing & Quality Assurance,GUI Test Automation,TestComplete,"Commercial automated testing tool supporting UI and functional testing of desktop, mobile, and web apps."
+33,"(Poonam and Mittal, 2019)",Testing & Quality Assurance,Functional Testing,UFT,Enterprise-grade functional testing tool used for automating user interface tests across platforms.
+34,"(Prates and Pereira, 2025)",Security,Static Code Security Testing,SonarQube,"Used in DevSecOps pipelines to scan source code for bugs, vulnerabilities, and code smells during development, enabling early detection of security issues."
+34,"(Prates and Pereira, 2025)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,"Performs real-time security scanning of running web applications to detect vulnerabilities like injection flaws, XSS, and broken authentication."
+34,"(Prates and Pereira, 2025)",Security,Software Composition Analysis (SCA),OWASP Dependency Check,Analyzes third-party libraries and dependencies in projects to identify known vulnerabilities using public CVE databases.
+34,"(Prates and Pereira, 2025)",Cloud Infrastructure & IaC,Security Policy Validation,Checkov,"Scans infrastructure-as-code configurations (e.g., Terraform) to ensure compliance with security policies and detect misconfigurations before deployment."
+34,"(Prates and Pereira, 2025)",Application Deployment & Orchestration,CI/CD Automation,GitLab CI,Manages the end-to-end CI/CD pipeline and integrates DevSecOps tools for automated security checks at every stage of development and deployment.
+35,"(Radhakrishnan et al., 2024)",Data Management & Mining,Statistical Computing,R,"Open-source language and environment for statistical computing and graphics, widely used in engineering data analysis and visualization."
+35,"(Radhakrishnan et al., 2024)",Data Management & Mining,Scientific Programming,Python,"Popular programming language for sustainable engineering analysis, offering extensive open-source libraries for data manipulation, visualization, and modeling."
+35,"(Radhakrishnan et al., 2024)",Visualization & Reporting,Interactive Graphing,Plotly,"Python-based library used for interactive, publication-quality data visualizations in engineering and research domains."
+35,"(Radhakrishnan et al., 2024)",AI & Machine Learning,Workflow Automation,KNIME,"Graphical tool for automating data science workflows; supports drag-and-drop analysis pipelines integrating ML, ETL, and reporting tasks."
+35,"(Radhakrishnan et al., 2024)",Analytics & Monitoring,Big Data Infrastructure,Apache Spark,"Open-source unified analytics engine used for large-scale data processing, real-time streaming, and machine learning integration in smart computing systems."
+36,"(Raghunathan, 2020)",Security,Static Code Security Testing,SonarQube,"Performs static code analysis in CI/CD to detect bugs, vulnerabilities, and code smells."
+36,"(Raghunathan, 2020)",Security,Static Code Security Testing,Brakeman,Performs static security analysis for Ruby on Rails applications.
+36,"(Raghunathan, 2020)",Security,Software Composition Analysis (SCA),Dependency-Check,Scans dependencies against the NVD to detect known vulnerabilities.
+36,"(Raghunathan, 2020)",Security,Software Composition Analysis (SCA),Snyk,Monitors and remediates vulnerabilities in open-source dependencies.
+36,"(Raghunathan, 2020)",Containerization & Orchestration,Vulnerability Scanning,Clair,Scans container images for known vulnerabilities.
+36,"(Raghunathan, 2020)",Containerization & Orchestration,Vulnerability Scanning,Trivy,Scans containers and file systems for security flaws and misconfigurations.
+36,"(Raghunathan, 2020)",Cloud Infrastructure & IaC,IaC Scanning,TerraScan,Scans Terraform and Kubernetes IaC files for misconfigurations.
+36,"(Raghunathan, 2020)",Cloud Infrastructure & IaC,IaC Scanning,Checkov,"Performs static code analysis of Terraform, CloudFormation, and Kubernetes configurations."
+36,"(Raghunathan, 2020)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,Performs dynamic security testing of running web applications.
+36,"(Raghunathan, 2020)",Security,Credential Storage,HashiCorp Vault,"Manages access to secrets, passwords, and sensitive information."
+36,"(Raghunathan, 2020)",Containerization & Orchestration,Configuration Audit,Neuvector,Applies Kubernetes CIS Benchmarks for auditing configuration.
+36,"(Raghunathan, 2020)",Containerization & Orchestration,Configuration Audit,kube-bench,Audits Kubernetes clusters against CIS benchmarks.
+36,"(Raghunathan, 2020)",Security,Intrusion Detection,Falco,Performs real-time threat detection and runtime security monitoring in containers.
+36,"(Raghunathan, 2020)",Security,Artifact Integrity,in-toto,Secures software supply chain by ensuring artifact integrity and traceability.
+36,"(Raghunathan, 2020)",Security,Image Signing,Notary,Signs and verifies Docker container images.
+36,"(Raghunathan, 2020)",Security,Kubernetes Integration,External Secrets Operator,Syncs Kubernetes secrets with external secret management tools.
+36,"(Raghunathan, 2020)",Cloud Infrastructure & IaC,Provisioning,Terraform,Defines and provisions infrastructure through code.
+36,"(Raghunathan, 2020)",Configuration & Dependency Management,Automation,Ansible,Automates software provisioning and configuration management.
+36,"(Raghunathan, 2020)",Security,Cloud-Based,AWS Secrets Manager,"Stores and retrieves sensitive data like database credentials, API keys, etc."
+36,"(Raghunathan, 2020)",Security,Cloud-Based,Azure Key Vault,"Manages secrets, keys, and certificates in Azure."
+36,"(Raghunathan, 2020)",Containerization & Orchestration,CNI and Policy Enforcement,Cilium,Implements network security policies and observability in Kubernetes using eBPF.
+36,"(Raghunathan, 2020)",Containerization & Orchestration,Policy Management,Calico,Enforces network security policies for Kubernetes clusters.
+37,"(Rajapakse et al., 2021)",Security,Static Code Security Testing,SonarQube,Static analysis tool integrated into CI/CD pipelines; widely adopted for scanning source code for bugs and vulnerabilities during development.
+37,"(Rajapakse et al., 2021)",Security,Software Composition Analysis (SCA),OWASP Dependency-Check,Tool used to identify vulnerable dependencies in software projects; commonly integrated with build tools like Maven and Gradle.
+37,"(Rajapakse et al., 2021)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,Dynamic security scanner for detecting runtime vulnerabilities in web applications; noted for use in pipeline integration during QA or staging.
+37,"(Rajapakse et al., 2021)",Security,Container Image Scanning,Clair,"Static vulnerability scanner for Docker and container images, used in CI/CD to detect known issues in base images before deployment."
+37,"(Rodriguez et al., 2017)",Application Deployment & Orchestration,Continuous Integration and Deployment,Jenkins,"Used for automating build, test, and deployment pipelines in modern DevOps workflows for web applications."
+37,"(Rodriguez et al., 2017)",Source Code & Version Control,Source Code Management,Git,"Handles versioning of application source code; supports branching, merging, and collaboration across teams."
+37,"(Rodriguez et al., 2017)",Containerization & Orchestration,Application Packaging,Docker,Encapsulates web applications in containers to ensure consistent deployment across environments.
+37,"(Rodriguez et al., 2017)",Analytics & Monitoring,System Monitoring,Nagios,Used for monitoring servers and network components to detect failures and bottlenecks in DevOps environments.
+37,"(Rodriguez et al., 2017)",Cloud Infrastructure & IaC,Cloud Hosting and Automation,Amazon Web Services (AWS),Provides scalable cloud infrastructure for hosting web applications integrated with CI/CD and container tools.
+37,"(Rodriguez et al., 2017)",Networking & Automation,Configuration Management,Chef,Manages and automates infrastructure configuration and deployment in DevOps-based systems.
+38,"(Roy et al., 2021)",Requirement Engineering & Tracking,Requirement Prioritization,CARO,CARO is a conflict-aware requirement ordering tool that generates an optimal prioritization order among functional and non-functional requirements by analyzing their conflicts and dependencies. It helps mitigate risks during incremental software delivery in DevOps.
+38,"(Roy et al., 2021)",Requirement Engineering & Tracking,Risk Assessment,CARO,Provides dynamic risk analysis by comparing optimal and alternate requirement orderings. Enables developers to understand and manage risks when selected features neglect dependencies or conflicts.
+38,"(Roy et al., 2021)",Requirement Engineering & Tracking,Traceability,CARO,Allows tracking of implemented features and their associated requirements. Supports unfreezing of features to reduce risk when conflicts or dependencies are unresolved.
+38,"(Roy et al., 2021)",Requirement Engineering & Tracking,Dashboard Monitoring,CARO,"Includes a dashboard to monitor project progress, changes, and risk estimations in each iteration of development."
+39,"(Rubasinghe et al., 2021)",Requirement Engineering & Tracking,Traceability Management,SAT-Analyser,"A traceability management tool that supports requirement-to-code and test traceability across the DevOps lifecycle. Provides dashboards, impact analysis, and version control tracking to ensure trace coverage and minimize defects."
+39,"(Rubasinghe et al., 2021)",Requirement Engineering & Tracking,Change Impact Analysis,SAT-Analyser,Allows developers to visualize how changes in requirements affect code and test cases; supports early defect detection and risk analysis in agile and DevOps workflows.
+39,"(Rubasinghe et al., 2021)",Visualization & Reporting,Dashboard Monitoring,SAT-Analyser,"Presents traceability data through interactive dashboards, enabling team members to monitor requirement satisfaction and coverage across DevOps stages."
+40,"(Saqib et al., 2025)",Cloud Infrastructure & IaC,Instance Management,Amazon EC2 Auto Scaling,"Automatically adjusts the number of EC2 instances in response to demand spikes and spot interruptions, improving availability and cost-efficiency."
+40,"(Saqib et al., 2025)",Analytics & Monitoring,Metrics and Logs,AWS CloudWatch,"Monitors EC2 spot instance health, performance, and lifecycle transitions to enable proactive resource and security management."
+40,"(Saqib et al., 2025)",Security,Threat Detection,Amazon GuardDuty,Provides intelligent threat detection to secure EC2 spot instances from malicious activities and unauthorized access.
+40,"(Saqib et al., 2025)",Cloud Infrastructure & IaC,Provisioning,AWS CloudFormation,"Enables automated provisioning of spot instance groups using declarative templates, improving reproducibility and governance."
+40,"(Saqib et al., 2025)",Application Deployment & Orchestration,Container Management,Amazon ECS,"Deploys and manages containers across EC2 spot instances, ensuring high availability despite spot volatility."
+41,"(Shah et al., 2021)",Networking & Automation,Infrastructure Configuration,Ansible,"Used for network automation by configuring routers, switches, and firewalls; integrates with network operating systems like Cisco IOS and Junos."
+41,"(Shah et al., 2021)",Networking & Automation,Declarative Infrastructure,Terraform,Employed for declarative infrastructure-as-code across cloud and network devices; enables reproducible configuration management.
+41,"(Shah et al., 2021)",Analytics & Monitoring,Telemetry Collection,Prometheus,"Collects metrics from network infrastructure and systems, useful for real-time monitoring and alerting in DevOps for networking."
+41,"(Shah et al., 2021)",Containerization & Orchestration,Network Function Management,Kubernetes,Manages cloud-native network functions and orchestrates containerized workloads with integrated service discovery and scaling.
+41,"(Shah et al., 2021)",Build & CI/CD,CI for Network Code,GitLab CI,Supports version control and CI pipelines for managing and validating network configurations through automated testing.
+41,"(Shah et al., 2021)",AI & Machine Learning,Pipeline Construction,ZenML,"MLOps framework enabling modular construction of ML pipelines by connecting components like data preprocessing, model training, and deployment with tools such as scikit-learn and TensorFlow."
+41,"(Shah et al., 2021)",AI & Machine Learning,Model Training,scikit-learn,"Machine learning library used for training models, integrated into ZenML pipelines for tasks such as classification and regression."
+41,"(Shah et al., 2021)",AI & Machine Learning,Model Training,Keras,"High-level neural network API used for deep learning model construction, often linked into ZenML pipelines."
+41,"(Shah et al., 2021)",AI & Machine Learning,Model Training and Deployment,TensorFlow,"Open-source platform for machine learning, enabling scalable training and deployment of ML models, integrated via ZenML."
+42,"(Sharma et al., 2025)",AI & Machine Learning,Code Suggestion & Review,Amazon CodeGuru,Uses ML to identify code issues and recommend improvements during the build and test stages.
+42,"(Sharma et al., 2025)",AI & Machine Learning,Code Suggestion & Review,GitHub Copilot,AI pair programmer that suggests code snippets during development to accelerate build phase.
+42,"(Sharma et al., 2025)",AI & Machine Learning,Automated Testing,Mabl,Intelligent test automation tool using ML to enhance UI and functional testing for CI/CD.
+42,"(Sharma et al., 2025)",AI & Machine Learning,Observability,Dynatrace,AI-powered platform that provides full-stack observability and automated root cause analysis.
+42,"(Sharma et al., 2025)",DevOps Platforms & Tools,CI/CD Automation,GitLab Auto DevOps,Automates the software lifecycle from code commit to monitoring using built-in AI pipelines.
+42,"(Sharma et al., 2025)",Collaboration & Project Management,Planning & Collaboration,Jira,Used for project planning and task tracking during the plan phase of DevOps lifecycle.
+42,"(Sharma et al., 2025)",Security,Static & Dynamic Analysis,DeepCode,AI-based code review tool that detects security and performance bugs during code review.
+42,"(Sharma et al., 2025)",Application Deployment & Orchestration,Continuous Delivery,Spinnaker,Multi-cloud continuous delivery platform supporting automated canary analysis and rollout.
+42,"(Sharma et al., 2025)",Analytics & Monitoring,Monitoring & Logging,Prometheus,Time-series monitoring tool that tracks metrics and triggers alerts for DevOps systems.
+42,"(Sharma et al., 2025)",Code Quality & Analysis,Code Quality Metrics,SonarQube,Analyzes code quality and maintains clean code practices across development pipelines.
+43,"(Shrestha et al., 2024)",Security,Lightweight Threat Modeling,LightSC,Supports usable and lightweight security classification for DevSecOps teams by categorizing security information types and risks.
+44,"(Singh et al., 2022)",Configuration & Dependency Management,Automation Frameworks,Chef,Configuration management tool that automates infrastructure provisioning and enforces operational procedures.
+44,"(Singh et al., 2022)",Application Deployment & Orchestration,Cloud Service Configuration,Juju,"Orchestrates and manages services across cloud environments, ensuring scalability and fault tolerance."
+44,"(Singh et al., 2022)",Configuration & Dependency Management,Security and Enforcement,Puppet,Automates configuration management while enforcing compliance and security standards in deployments.
+44,"(Singh et al., 2022)",Configuration & Dependency Management,Multi-node Deployment,Ansible,Agentless automation tool for managing configurations and application deployment across distributed systems.
+44,"(Singh et al., 2022)",Build & CI/CD,Remote Execution,Fabric,Python-based tool to automate application deployment via SSH; integrates with Python web frameworks.
+44,"(Singh et al., 2022)",Build & CI/CD,Pipeline Automation,Jenkins,"Extensible automation server used for building, testing, and deploying software projects in CI/CD pipelines."
+44,"(Singh et al., 2022)",Build & CI/CD,Scripting and Compilation,ANT,Java-based build tool using XML files to automate software build processes and task sequences.
+44,"(Singh et al., 2022)",Build & CI/CD,GitHub Integration,BuildHive,Jenkins-based CI tool tailored for GitHub projects and collaborative open-source environments.
+44,"(Singh et al., 2022)",Build & CI/CD,Build Lifecycle Management,Gradle,"Automated build system with support for multi-language development, IDEs, CI tools, and Docker."
+44,"(Singh et al., 2022)",Build & CI/CD,Dependency Management,Maven,Java build and project management tool focused on dependency handling and plugin support.
+44,"(Singh et al., 2022)",Testing & Quality Assurance,Web Testing,Selenium,Framework for automating web application testing across different browsers and platforms.
+44,"(Singh et al., 2022)",Testing & Quality Assurance,Mobile Testing,Appium,Open-source mobile application testing tool supporting Android and iOS with multiple programming languages.
+44,"(Singh et al., 2022)",Testing & Quality Assurance,Web Automation,Watir,Ruby-based web automation tool designed for Windows-based browser testing.
+44,"(Singh et al., 2022)",Analytics & Monitoring,Application Performance Monitoring,New Relic APM,"Monitors software performance with tracing of application code, SQL queries, and transaction times."
+44,"(Singh et al., 2022)",Analytics & Monitoring,Infrastructure Monitoring,New Relic Server,"Tracks server-level metrics such as CPU, memory, disk usage, and system health in real-time."
+45,"(Solayman and Qasha, 2023)",Configuration & Dependency Management,Infrastructure as Code,Terraform,Used to provision and manage infrastructure in a repeatable way using declarative configuration files.
+45,"(Solayman and Qasha, 2023)",Configuration & Dependency Management,Configuration Automation,Ansible,Tool used for automating configuration and deployment tasks across systems using playbooks.
+45,"(Solayman and Qasha, 2023)",Application Deployment & Orchestration,Container Orchestration,Kubernetes,"Orchestrates deployment, scaling, and management of containerized applications across clusters."
+45,"(Solayman and Qasha, 2023)",Analytics & Monitoring,Log Aggregation and Visualization,ELK Stack,"Used for aggregating, searching, and visualizing logs to monitor and troubleshoot applications."
+46,"(Sravan et al., 2024)",Collaboration & Project Management,Agile Management,Jira,"Agile project management platform developed by Atlassian, supporting issue tracking, sprint planning, and integration with development tools."
+46,"(Sravan et al., 2024)",Collaboration & Project Management,Visual Workflow Management,Trello,Card- and board-based Kanban tool used for managing tasks and visualizing progress in Agile teams.
+46,"(Sravan et al., 2024)",Collaboration & Project Management,Hybrid Task Management,Asana,"Versatile project management tool for tracking goals, managing sprints, and coordinating workflows in Agile and non-Agile environments."
+46,"(Sravan et al., 2024)",Collaboration & Project Management,Agile Boards and Pipelines,Azure DevOps,Microsoft platform combining Agile project boards with CI/CD pipelines and repository integrations for full DevOps lifecycle management.
+47,"(Süß et al., 2022)",Build & CI/CD,CI Server,Jenkins,Used to automate build and integration tasks as part of a CI/CD pipeline; widely adopted in DevOps workflows.
+47,"(Süß et al., 2022)",Code Quality & Analysis,Static Code Analysis,SonarQube,"Analyzes source code for bugs, vulnerabilities, and code smells; integrates into CI workflows."
+47,"(Süß et al., 2022)",Artifact Management,Artifact Repository,Nexus Repository,"Stores and manages build artifacts, enabling artifact versioning and dependency resolution."
+47,"(Süß et al., 2022)",Source Code & Version Control,Version Control,Git,Distributed version control system used for tracking changes in source code and facilitating collaboration.
+48,"(Tarak and Kilinc, 2024)",Analytics & Monitoring,Service Mapping and Health Monitoring,DIA4M,"Visualizes microservice interactions, tracks service health using traffic-based anomaly detection, and summarizes microservice states through dashboards."
+48,"(Tarak and Kilinc, 2024)",Logging and Debugging,Log Analysis and Comparison,DIA4M,Provides comparative views of logs between normal and abnormal service states to assist in root cause analysis and troubleshooting.
+48,"(Tarak and Kilinc, 2024)",AI & Machine Learning,DevOps Workflow Automation,DIA4M (GPT-based Assistant),Offers interactive suggestions and troubleshooting guidance using a GPT-based DevOps assistant integrated into the UI.
+48,"(Tarak and Kilinc, 2024)",Analytics & Monitoring,Data Collection and Instrumentation,OpenTelemetry,Collects distributed tracing and metrics data from microservices for visualization and anomaly detection in DIA4M.
+48,"(Tarak and Kilinc, 2024)",Application Performance Monitoring,Instrumentation and Tracing,Elastic APM,Used in conjunction with OpenTelemetry to instrument and monitor service performance in DIA4M.
+49,"(Thome et al., 2023)",Security,Static Code Security Testing,Brakeman,Baseline SAST tool used in GitLab for Ruby on Rails applications; performs line-based vulnerability fingerprinting.
+49,"(Thome et al., 2023)",Security,Static Code Security Testing,Brakeman+VT,Enhanced SAST tool with Vulnerability Tracking (VT); deduplicates findings via fingerprinting and improves auditing efficiency.
+49,"(Thome et al., 2023)",Testing & Quality Assurance,CI/CD Tool Testing,SourceWarp,Scalable SCM-driven framework for testing and benchmarking DevOps features or tools using record/replay of Git history.
+49,"(Thome et al., 2023)",Containerization & Orchestration,Container Management,Docker,"Used to encapsulate SAST tools (brakeman and brakeman+VT) as testable, isolated CI/CD components in experiments."
+50,"(Vaish et al., 2024)",DevOps & IoT Integration,Deployment and Monitoring,Kaa IoT Platform,"Used for managing and monitoring connected IoT devices, integrating with CI/CD workflows to ensure continuous delivery and feedback."
+50,"(Vaish et al., 2024)",Build & CI/CD,CI/CD Orchestration,Jenkins,"Coordinates software delivery pipeline in the DevOps-IoT framework, handling builds, tests, and deployments."
+50,"(Vaish et al., 2024)",Containerization & Orchestration,IoT Edge Deployment,Docker,"Packages and deploys microservices to edge devices, ensuring consistent environments across heterogeneous IoT infrastructure."
+50,"(Vaish et al., 2024)",Source Code & Version Control,Code Management,Git,Facilitates source code management and integrates with Jenkins to trigger pipeline execution on commit.
+51,"(Woniak et al., 2025)",AI & Machine Learning,Model Training and Experimentation,MLflow,"Used for managing ML experiments, tracking model performance, and versioning models during development."
+51,"(Woniak et al., 2025)",AI & Machine Learning,Model Deployment,Kubeflow,"Supports deployment, orchestration, and monitoring of ML models in Kubernetes environments."
+51,"(Woniak et al., 2025)",AI & Machine Learning,Model Serving and Versioning,Seldon Core,"Provides model serving, version control, and A/B testing for ML models within Kubernetes clusters."
+51,"(Woniak et al., 2025)",AI & Machine Learning,Pipeline Orchestration,Airflow,"Used for authoring, scheduling, and monitoring workflows in ML pipelines."
+52,"(Yadati, 2021)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,Integrated into CI/CD pipelines to dynamically test running applications by simulating real-world attacks.
+52,"(Yadati, 2021)",Security,Security API Scanning,Apache JMeter,Performs security scans on APIs during CI/CD to identify runtime issues and vulnerabilities.
+52,"(Yadati, 2021)",Security,Behavior Driven Security Testing (BDST),SeleniumBase,Automates behavior-driven security testing by scripting scenarios as part of CI/CD security pipelines.
+53,"(Yarmolenko and Kononenko, 2024)",Security,Dynamic Application Security Testing (DAST),OWASP ZAP,"Open-source tool for finding security vulnerabilities in web applications; supports automated scanners, passive/active scanning, CI/CD integration, and manual testing via proxies."
+53,"(Yarmolenko and Kononenko, 2024)",Security,Dynamic Application Security Testing (DAST),Burp Suite,"Comprehensive web vulnerability scanner and interactive proxy; used for manual testing, automated scanning, CI/CD integration, and security analytics."
+53,"(Yarmolenko and Kononenko, 2024)",Security,Dynamic Application Security Testing (DAST),Acunetix,Commercial tool offering automated web vulnerability scanning and attack simulations; useful for integration in DevSecOps pipelines.
+53,"(Yarmolenko and Kononenko, 2024)",Security,Dynamic Application Security Testing (DAST),Netsparker,DAST tool for detecting vulnerabilities with minimal false positives; supports integration with CI/CD workflows.
+53,"(Yarmolenko and Kononenko, 2024)",Security,Dynamic Application Security Testing (DAST),AppScan,IBM's enterprise DAST solution providing advanced security testing and reporting capabilities integrated into development pipelines.
+54,"(Yin and Filkov, 2020)",Collaboration & Project Management,Developer Interaction Tools,GitHub,"Served as the primary coordination platform during DevOps tool adoption in OSS projects; used for pull request reviews, issue tracking, and technical discussions."
+54,"(Yin and Filkov, 2020)",Cloud Infrastructure & IaC,Configuration Management,Ansible,"Adopted in OSS projects to automate infrastructure setup and deployment tasks. Its adoption prompted discussions on responsibility, testing, and knowledge sharing."
+54,"(Yin and Filkov, 2020)",Cloud Infrastructure & IaC,Provisioning and Automation,Terraform,"Used for defining and provisioning infrastructure via declarative code; its introduction involved team debates about learning curve, standardization, and maintenance overhead."
+54,"(Yin and Filkov, 2020)",Containerization & Orchestration,Container Orchestration,Kubernetes,"Deployed to manage containerized workloads; adoption brought challenges in OSS teams such as knowledge disparity, maintenance burden, and requirement for infrastructure skills."

@@ -1,0 +1,14 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.bin
+*.sqlite3
+*.zip
+*.docx
+*.pdf
+knowledge_base/index/
+knowledge_base/chroma/
+uncertainty/*.pkl
+proposed_solution/venv/
+proposed_solution/.env

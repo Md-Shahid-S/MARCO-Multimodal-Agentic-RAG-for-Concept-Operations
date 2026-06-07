@@ -1,0 +1,1363 @@
+{
+  "mode": "marco",
+  "aggregate": {
+    "P@3": 0.0,
+    "nDCG@3": 0.0,
+    "P@5": 0.0,
+    "nDCG@5": 0.0,
+    "P@10": 0.0,
+    "nDCG@10": 0.0,
+    "RAE@5": 0.0,
+    "n_queries": 50,
+    "hallucination_rate": 0.22
+  },
+  "per_query": [
+    {
+      "query": "What is the relationship between Continuous Integration and service choreography?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does Infrastructure as Code enable automated deployment in microservices?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What are the benefits of container orchestration for service composition?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do I implement zero-downtime deployments in a microservice architecture?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Mapping continuous delivery pipelines to independent service deployability.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does GitOps facilitate declarative microservice orchestration?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the role of a deployment mesh in managing microservice rollouts?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How to automate database schema migrations in a CI/CD pipeline for MSA?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Automating rollback mechanisms for distributed microservices.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does immutable infrastructure relate to containerized microservice deployments?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do I map distributed tracing to fault isolation in microservices?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the connection between centralized logging and runtime diagnostics?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Implementing service-level telemetry with Prometheus and Grafana.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does synthetic monitoring improve microservice reliability?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Mapping eBPF-based observability to dynamic service discovery.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How to establish alerting rules for asynchronous microservice communication?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the relationship between log aggregation and distributed transaction debugging?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do health checks and readiness probes relate to service registry availability?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Tracking request latency across multiple microservice boundaries.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Using correlation IDs for cross-service observability.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do automated scaling policies map to service granularity?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the relationship between DevOps feedback loops and service autonomy?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does pipeline automation enforce architectural modularization?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Mapping horizontal pod autoscaling to stateless microservice design.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do domain-driven design contexts influence DevOps team topologies?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the connection between feature toggles and modular microservice releases?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does API gateway routing relate to scalable backend services?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Decoupling services using event-driven DevOps architectures.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do caching layers in DevOps pipelines improve microservice scalability?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Managing database per service limits through infrastructure automation.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does DevSecOps integrate access control into microservices?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Mapping version control practices to architectural traceability.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the role of automated audit logging in enforcing policy compliance?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": []
+    },
+    {
+      "query": "How to implement zero-trust security between microservices using a service mesh?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Automating vulnerability scanning in microservice container registries.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does secret management map to decentralized configuration in MSA?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Implementing continuous compliance checks in CI/CD pipelines.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the relationship between automated SAST/DAST and microservice boundaries?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Enforcing rate limiting and WAF policies in microservice gateways.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do signed container images relate to microservice supply chain security?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does Infrastructure as Code map to declarative configuration in MSA?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the relationship between configuration management and stateless deployment?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does automated cloud provisioning relate to cloud-native microservice setup?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Mapping dynamic environment variables to externalized microservice configuration.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How do I manage drift in microservice environments using Terraform?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Using ConfigMaps and Secrets for decentralized service configuration.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "How does ephemeral environment creation speed up microservice testing?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Managing multi-region microservice deployments via centralized configuration.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "What is the connection between Git-backed configuration and service restartability?",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "query": "Automating the setup of local development environments for complex microservices.",
+      "metrics": {
+        "P@3": 0.0,
+        "nDCG@3": 0.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.0,
+        "RAE@5": 0.0
+      },
+      "ranked": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}
